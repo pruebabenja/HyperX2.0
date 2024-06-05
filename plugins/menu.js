@@ -415,10 +415,10 @@ let menuOwner = `╭┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈⪩
 
 if (command == 'menu' || command == 'help') {
 m.react('💫') 
-let saludos = `~ Hola ${pushname} ${user.registered === true ? '✓' : ''}`
+let saludos = `~ HyperX te saluda ${pushname} ${user.registered === true ? '✓' : ''}`
 let menu = `
 ╭┄╌╌╌╌〔 ≪ •🌐• ≫ 〕╌╌┄─╌╌•
-┆📡 ʙɪᴇɴᴠᴇɴɪᴅᴏ ᴀʟ ᴍᴇɴᴜ ʟɪsᴛᴀ
+┆📡 BIENVENIDO AL MENU PRINCIPAL DE HYPERX
 ┆◤━━━━━ ☆. ∆ .☆ ━━━━━◥
 ┆ \`ℹ️ ＩＮＦＯＢＯＴ\`
 ┆◤━━━━━ ☆. ∆ .☆ ━━━━━◥
@@ -430,7 +430,7 @@ let menu = `
 ┆ ${lenguaje.menu.text6} ${runtime(process.uptime())}
 ┆ ${lenguaje.menu.text7} ${conn.public ? 'publico' : 'privado'}
 ┆◤━━━━━ ☆. ∆ .☆ ━━━━━◥
-┆ \`👥 INFO DEL USUARIO\`
+┆ \`👥 INFO DEL USUARIO HYPERX\`
 ┆◤━━━━━ ☆. ∆ .☆ ━━━━━◥
 ┆ ${lenguaje.menu.text8} ${user.limit}
 ┆ ${lenguaje.menu.text9} ${user.level}
@@ -441,7 +441,7 @@ let menu = `
 ┆ ${lenguaje.menu.text11} ${rtotalreg} de ${totalreg}
 └────ׂ─ׂ─ׂ─ׂ─────╌─╌─╌
 ${conn.user.id == global.numBot2 ? `> *👑Bot Oficial*` : `${lenguaje.menu.texttt} @${global.numBot.split`@`[0]}`}`
-let xd = `${pickRandom([`\`¿𝐐𝐮𝐢𝐞𝐫𝐞𝐬 𝐨𝐛𝐭𝐞𝐧𝐞𝐫 𝐭𝐮 𝐛𝐨𝐭 𝐩𝐞𝐫𝐬𝐨𝐧𝐚𝐥𝐢𝐳𝐚𝐝𝐨?\`https://www.facebook.com/elrebelde21`, `\`□ CÓMO INSTALAR EL BOT\`\n${yt}`, `\`¿Qué hay de nuevo?\`\n• Pon : ${prefix}nuevo`, `\`💫 INFÓMARTE SOBRE LAS NUEVAS ACTUALIZACIONES, NOVEDADES DEL BOT AQUI\`\n${nna}`, `\`🌟¿Te agrada el bot? califica nuestro repositorio con una estrellita ☺\`\n${md}\``])}`
+let xd = `${pickRandom([`\`¿𝐐𝐮𝐢𝐞𝐫𝐞𝐬 𝐨𝐛𝐭𝐞𝐧𝐞𝐫 𝐭𝐮 𝐛𝐨𝐭 𝐩𝐞𝐫𝐬𝐨𝐧𝐚𝐥𝐢𝐳𝐚𝐝𝐨?\`https://www.facebook.com/`, `\`□ CÓMO INSTALAR EL BOT\`\n${yt}`, `\`¿Qué hay de nuevo?\`\n• Pon : ${prefix}nuevo`, `\`💫 INFÓMARTE SOBRE LAS NUEVAS ACTUALIZACIONES, NOVEDADES DEL BOT AQUI\`\n${nna}`, `\`🌟¿Te agrada el bot? califica nuestro repositorio con una estrellita ☺\`\n${md}\``])}`
 
 let listSections = []    
 listSections.push({
