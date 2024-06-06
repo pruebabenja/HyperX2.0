@@ -415,77 +415,37 @@ let menuOwner = `╭┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈⪩
 
 if (command == 'menu' || command == 'help') {
 m.react('💫') 
-let saludos = `~ *🧸❤️‍🩹𝑯𝒚𝒑𝒆𝒓𝑿 𝒕𝒆 𝒔𝒂𝒍𝒖𝒅𝒂* @${m.sender.split`@`[0]} === true ? '✓' : ''}`
+let saludos = `*🧸❤️‍🩹𝑯𝒚𝒑𝒆𝒓𝑿 𝒕𝒆 𝒔𝒂𝒍𝒖𝒅𝒂* @${m.sender.split`@`[0]}`
 let menu = `
 ┏━━━━━━━━━━━┓
-┣ *🧸❤️‍🩹𝑯𝒚𝒑𝒆𝒓𝑿 𝒕𝒆 𝒔𝒂𝒍𝒖𝒅𝒂* @${m.sender.split`@`[0]}
-┣ 
-┣ 🚀𝑷𝒐𝒓𝒇𝒂𝒗𝒐𝒓 𝒖𝒔𝒂 𝒍𝒐𝒔 𝒔𝒊𝒈𝒖𝒊𝒆𝒏𝒕𝒆𝒔 𝒄𝒐𝒎𝒂𝒏𝒅𝒐𝒔 𝒑𝒂𝒓𝒂 𝒗𝒆𝒓 𝒕𝒐𝒅𝒐𝒔 𝒍𝒐𝒔 𝒎𝒆𝒏𝒖𝒔 𝒅𝒆 𝑯𝒚𝒑𝒆𝒓𝑿:
-┣ ✅.𝒎𝒆𝒏𝒖𝒈𝒓𝒖𝒑𝒐𝒔
-┣ ✅.𝒎𝒆𝒏𝒖𝒇𝒇
-┣ ✅.𝒎𝒆𝒏𝒖𝒃𝒖𝒔𝒄𝒂𝒓𝒗𝒔
-┣ ✅.𝒎𝒆𝒏𝒖𝒍𝒊𝒔𝒕𝒂𝒔𝒇𝒆𝒎
-┣ ✅.𝒎𝒆𝒏𝒖𝒍𝒊𝒔𝒕𝒂𝒔𝒎𝒂𝒔𝒄
-┣ ✅.𝒎𝒆𝒏𝒖𝒂𝒑𝒌𝒔
-┣ ✅.𝒎𝒆𝒏𝒖𝒔𝒕𝒊𝒄𝒌𝒆𝒓𝒔
-┣ ✅.𝒎𝒆𝒏𝒖𝒋𝒖𝒆𝒈𝒐𝒔
-┣ ✅.𝒎𝒆𝒏𝒖𝒊𝒎𝒂𝒈𝒆𝒏𝒆𝒔
-┣ ✅.𝒎𝒆𝒏𝒖𝒅𝒆𝒔𝒄𝒂𝒓𝒈𝒂𝒔
-┣ ✅.𝒎𝒆𝒏𝒖𝒄𝒐𝒏𝒗𝒆𝒓𝒕𝒊𝒅𝒐𝒓𝒆𝒔
-┣ ✅.𝒎𝒆𝒏𝒖𝒆𝒇𝒆𝒄𝒕𝒐𝒔𝒍𝒐𝒈𝒐𝒔
-┣ ✅.𝒎𝒆𝒏𝒖𝒇𝒓𝒂𝒔𝒆𝒔
-┣ ✅.𝒎𝒆𝒏𝒖𝒃𝒖𝒔𝒄𝒂𝒅𝒐𝒓𝒆𝒔
-┣ ✅.𝒎𝒆𝒏𝒖𝒉𝒆𝒓𝒓𝒂𝒎𝒊𝒆𝒏𝒕𝒂𝒔
-┣ ✅.𝒎𝒆𝒏𝒖𝒆𝒄𝒐𝒏𝒐𝒎𝒊𝒂𝒔
-┣ ✅.𝒎𝒆𝒏𝒖𝒐𝒘𝒏𝒆𝒓𝒔
-┣ ✅.𝒎𝒆𝒏𝒖𝒍𝒂𝒃𝒊𝒃𝒍𝒊𝒂𝒙
+┣ 🚀𝑴𝑬𝑵𝑼 𝑷𝑹𝑰𝑵𝑪𝑰𝑷𝑨𝑳 𝑫𝑬 𝑯𝒀𝑷𝑬𝑹𝑿:
 ┗━━━━━━━━━━━┛
-╭┄╌╌╌╌〔 ≪ •🌐• ≫ 〕╌╌┄─╌╌•
-┆📡 BIENVENIDO AL MENU PRINCIPAL DE HYPERX
-┆◤━━━━━ ☆. ∆ .☆ ━━━━━◥
-┆ \`ℹ️ ＩＮＦＯＢＯＴ\`
-┆◤━━━━━ ☆. ∆ .☆ ━━━━━◥
-┆ ${lenguaje.menu.text} [ ${prefix} ]
-┆ ${lenguaje.menu.text2} ${date}    
-┆ ${lenguaje.menu.text3} ${time} 
-┆ ${lenguaje.menu.text4} ${vs}
-┆ ${lenguaje.menu.text5} ${Object.keys(global.db.data.users).length}
-┆ ${lenguaje.menu.text6} ${runtime(process.uptime())}
-┆ ${lenguaje.menu.text7} ${conn.public ? 'publico' : 'privado'}
-┆◤━━━━━ ☆. ∆ .☆ ━━━━━◥
-┆ \`👥 INFO DEL USUARIO HYPERX\`
-┆◤━━━━━ ☆. ∆ .☆ ━━━━━◥
-┆ ${lenguaje.menu.text8} ${user.limit}
-┆ ${lenguaje.menu.text9} ${user.level}
-┆ ${lenguaje.menu.text10} ${user.role}
-┆❏ ᴇxᴘ : ${user.exp}
-┆❏ ᴄᴏɪɴs : ${user.money}
-┆
-┆ ${lenguaje.menu.text11} ${rtotalreg} de ${totalreg}
-└────ׂ─ׂ─ׂ─ׂ─────╌─╌─╌
+┏━━━━━━━━━━━┓
+┣ ✅𝑪𝒓𝒆𝒂𝒅𝒐𝒓 𝑯𝒚𝒑𝒆𝒓𝑿:
+┣ +51 936732723
+┣ ✅Para comprar el bot o para obtener informacion, porfavor comunicate con mi creador.
+┣ 🚀𝑫𝑰𝑺𝑭𝑹𝑼𝑻𝑨 𝑫𝑬𝑳 𝑴𝑬𝑵𝑼 𝑪𝑶𝑴𝑷𝑳𝑬𝑻𝑶 𝑫𝑬 𝑯𝒀𝑷𝑬𝑹𝑿:
+┗━━━━━━━━━━━┛
 ${conn.user.id == global.numBot2 ? `> *👑Bot Oficial*` : `${lenguaje.menu.texttt} @${global.numBot.split`@`[0]}`}`
 let xd = `${pickRandom([`\`¿𝐐𝐮𝐢𝐞𝐫𝐞𝐬 𝐨𝐛𝐭𝐞𝐧𝐞𝐫 𝐭𝐮 𝐛𝐨𝐭 𝐩𝐞𝐫𝐬𝐨𝐧𝐚𝐥𝐢𝐳𝐚𝐝𝐨?\`https://www.facebook.com/`, `\`□ CÓMO INSTALAR EL BOT\`\n${yt}`, `\`¿Qué hay de nuevo?\`\n• Pon : ${prefix}nuevo`, `\`💫 INFÓMARTE SOBRE LAS NUEVAS ACTUALIZACIONES, NOVEDADES DEL BOT AQUI\`\n${nna}`, `\`🌟¿Te agrada el bot? califica nuestro repositorio con una estrellita ☺\`\n${md}\``])}`
 
 let listSections = []    
 listSections.push({
 title: '',
-rows: [{ header: "𝐌𝐄𝐍𝐔 𝐂𝐎𝐌𝐏𝐋𝐄𝐓𝐎", title: "", id: `.allmenu`, description: `Muestra el menu completo\n` }, 
-{ header: "𝐌𝐄𝐍𝐔 𝐃𝐄𝐒𝐂𝐀𝐑𝐆𝐀𝐑", title: "", id: `.menu1`, description: `Muestra el menu de descarga\n` },
-{ header: "𝐀𝐔𝐃𝐈𝐎𝐒", title: "", id: `.menu2`, description: `Muestra el menu de audios palabra clave para interactuar con el bot\n` },
-{ header: "𝐌𝐄𝐍𝐔 𝐆𝐑𝐔𝐏𝐎", title: "", id: `.menu3`, description: `Muestra el menu de gestión del Grupo\n` },
-{ header: "𝐁𝐔𝐒𝐂𝐀𝐃𝐎𝐑𝐄𝐒", title: "", id: `.menu4`, description: `Muestra el menu para buscar información\n` },
-{ header: "𝐉𝐔𝐄𝐆𝐎𝐒", title: "", id: `.menu5`, description: `Muestra el menu de juegos para divertir tu grupo con multi juegos\n` }, 
-{ header: "𝐄𝐅𝐄𝐂𝐓𝐎", title: "", id: `.menu6`, description: `Muestra el menu de efecto\n` }, 
-{ header: "𝐂𝐎𝐍𝐕𝐄𝐑𝐓𝐈𝐃𝐎𝐑𝐄𝐒", title: "", id: `.menu7`, description: `Muestra el menu de convertidores\n` }, 
-{ header: "𝐑𝐀𝐍𝐃𝐎𝐖", title: "", id: `.menu8`, description: `Muestra el menu randow\n` }, 
-{ header: "𝐑𝐏𝐆", title: "", id: `.menu9`, description: `Muestra el menu RPG\n` }, 
-{ header: "𝐌𝐄𝐍𝐔 𝐒𝐓𝐈𝐂𝐊𝐄𝐑", title: "", id: `.menu10`, description: `Muestra el menu de creación de sticker\n` }, 
-{ header: "𝐌𝐄𝐍𝐔 𝐏𝐀𝐑𝐀 𝐏𝐑𝐎𝐏𝐈𝐄𝐓𝐀𝐑𝐈𝐎", title: "", id: `.menu11`, description: `Muestra el menu solo para propietario del bot\n` }, 
-{ header: "𝐌𝐄𝐍𝐔 +𝟏𝟖", title: "", id: `.menu18`, description: `Muestra el menu +18 (usarlo bajo tu responsabilidad)\n` }, 
-{ header: "𝐋𝐈𝐒𝐓𝐀 𝐃𝐄 𝐋𝐎𝐆𝐎𝐒", title: "", id: `.logos`, description: `Muestra la lista para crear logos\n` }, 
-{ header: "𝐕𝐄𝐋𝐎𝐂𝐈𝐃𝐀𝐃", title: "", id: `.status`, description: `Comprueba la velocidad del bot\n` }, 
-{ header: "𝐑𝐄𝐆𝐋𝐀", title: "", id: `.reglas`, description: `Conecer la reglas del bot\n` }, 
-{ header: "𝐑𝐄𝐆𝐋𝐀𝐒", title: "", id: `.nuevo`, description: `Revisan si hay nueva versión / comando\n` }
+rows: [{ header: "𝑴𝑬𝑵𝑼 𝑪𝑶𝑴𝑷𝑳𝑬𝑻𝑶 𝑯𝒀𝑷𝑬𝑹𝑿", title: "", id: `.allmenu`, description: `Muestra el menu completo\n` }, 
+{ header: "𝑴𝑬𝑵𝑼 𝑫𝑬𝑺𝑪𝑨𝑹𝑮𝑨𝑺 𝑯𝒀𝑷𝑬𝑹𝑿", title: "", id: `.menu1`, description: `Muestra el menu de descarga\n` },
+{ header: "𝑴𝑬𝑵𝑼 𝑨𝑼𝑫𝑰𝑶𝑺 𝑯𝒀𝑷𝑬𝑹𝑿", title: "", id: `.menu2`, description: `Muestra el menu de audios palabra clave para interactuar con el bot\n` },
+{ header: "𝑴𝑬𝑵𝑼 𝑮𝑹𝑼𝑷𝑨𝑳 𝑯𝒀𝑷𝑬𝑹𝑿", title: "", id: `.menu3`, description: `Muestra el menu de gestión del Grupo\n` },
+{ header: "𝑴𝑬𝑵𝑼 𝑩𝑼𝑺𝑪𝑨𝑫𝑶𝑹𝑬𝑺 𝑯𝒀𝑷𝑬𝑹𝑿", title: "", id: `.menu4`, description: `Muestra el menu para buscar información\n` },
+{ header: "𝑴𝑬𝑵𝑼 𝑱𝑼𝑬𝑮𝑶𝑺 𝑯𝒀𝑷𝑬𝑹𝑿", title: "", id: `.menu5`, description: `Muestra el menu de juegos para divertir tu grupo con multi juegos\n` }, 
+{ header: "𝑴𝑬𝑵𝑼 𝑬𝑭𝑬𝑪𝑻𝑶𝑺 𝑯𝒀𝑷𝑬𝑹𝑿", title: "", id: `.menu6`, description: `Muestra el menu de efecto\n` }, 
+{ header: "𝑴𝑬𝑵𝑼 𝑪𝑶𝑵𝑽𝑬𝑹𝑻𝑰𝑫𝑶𝑹𝑬𝑺 𝑯𝒀𝑷𝑬𝑹𝑿", title: "", id: `.menu7`, description: `Muestra el menu de convertidores\n` }, 
+{ header: "𝑴𝑬𝑵𝑼 𝑺𝑻𝑰𝑪𝑲𝑬𝑹 𝑯𝒀𝑷𝑬𝑹𝑿", title: "", id: `.menu10`, description: `Muestra el menu de creación de sticker\n` }, 
+{ header: "𝑴𝑬𝑵𝑼 𝑶𝑾𝑵𝑬𝑹 𝑯𝒀𝑷𝑬𝑹𝑿", title: "", id: `.menu11`, description: `Muestra el menu solo para propietario del bot\n` }, 
+{ header: "𝑴𝑬𝑵𝑼 𝑿𝑿𝑿𝑿 𝑯𝒀𝑷𝑬𝑹𝑿", title: "", id: `.menu18`, description: `Muestra el menu +18 (usarlo bajo tu responsabilidad)\n` }, 
+{ header: "𝑴𝑬𝑵𝑼 𝑳𝑶𝑮𝑶𝑺 𝑯𝒀𝑷𝑬𝑹𝑿𝐒", title: "", id: `.logos`, description: `Muestra la lista para crear logos\n` }, 
+{ header: "𝑽𝑬𝑳𝑶𝑪𝑰𝑫𝑨𝑫 𝑯𝒀𝑷𝑬𝑹𝑿", title: "", id: `.status`, description: `Comprueba la velocidad del bot\n` }, 
+{ header: "𝑹𝑬𝑮𝑳𝑨𝑺 𝑯𝒀𝑷𝑬𝑹𝑿", title: "", id: `.reglas`, description: `Conecer la reglas del bot\n` }, 
 ]})
 
 conn.sendList(m.chat, saludos, menu, `sᴇʟᴇᴄᴄɪᴏɴᴇs ᴀǫᴜɪ`, listSections, fkontak)
