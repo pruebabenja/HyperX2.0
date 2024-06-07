@@ -22,15 +22,8 @@ const time = moment.tz('America/Argentina/Buenos_Aires').format('LT')
 let wa = m.key.id.length > 21 ? 'Android' : m.key.id.substring(0, 2) == '3A' ? 'IOS' : 'whatsapp web'
 let submenu = `𝐇𝐘𝐏𝐄𝐑𝐗 𝐓𝐄 𝐃𝐀 𝐋𝐀 𝐂𝐎𝐑𝐃𝐈𝐀𝐋 𝐁𝐈𝐄𝐍𝐕𝐄𝐍𝐈𝐃𝐀 @${m.sender.split`@`[0]}
 ┏━━━━━━━━━━━┓
-┣ \`✅𝐌𝐄𝐍𝐔 𝐂𝐎𝐌𝐏𝐋𝐄𝐓𝐎\`
-┗━━━━━━━━━━━┛
-┏━━━━━━━━━━━┓
 ┣ \`✅𝐂𝐑𝐄𝐀𝐃𝐎𝐑 𝐇𝐘𝐏𝐄𝐑𝐗\`
 ┣ +51 936732723
-┣ \`✅Para comprar el bot o para obtener informacion, porfavor comunicate con mi creador.\`
-┗━━━━━━━━━━━┛
-┏━━━━━━━━━━━┓
-┣ \`✅𝐃𝐈𝐒𝐅𝐑𝐔𝐓𝐀 𝐃𝐄𝐋 𝐁𝐎𝐓 𝐇𝐘𝐏𝐄𝐑𝐗\`
 ┗━━━━━━━━━━━┛`
 
 let descargar = `
@@ -434,7 +427,7 @@ sourceUrl: `${pickRandom([nna, nn, md, yt])}`
 
 if (command == 'menu1' || command == 'descarga') {
 m.react('🚀') 
-conn.sendButton(m.chat, submenu, descargar, pickRandom([img, img1, img2]), [['𝐀𝐔𝐃𝐈𝐎𝐒', `.menu2`], ['𝐕𝐄𝐋𝐎𝐂𝐈𝐃𝐀𝐃', `.ping`]], null, [['𝐍𝐨𝐯𝐚𝐁𝐨𝐭-𝐌𝐃', `${pickRandom([nna, nn, md, yt])}`]], m)
+conn.sendButton(m.chat, submenu, descargar, pickRandom([img, img1, img2]), [['𝐀𝐔𝐃𝐈𝐎𝐒', `.menu2`], ['𝐕𝐄𝐋𝐎𝐂𝐈𝐃𝐀𝐃', `.ping`]], null, [['𝐇𝐘𝐏𝐄𝐑𝐗', `${pickRandom([nna, nn, md, yt])}`]], m)
 /*conn.sendMessage(m.chat, { text: submenu + descargar,  
 contextInfo:{  
 forwardedNewsletterMessageInfo: { 
@@ -462,7 +455,7 @@ conn.sendMessage(m.chat, { text: menu2}, { quoted: fkontak, ephemeralExpiration:
 
 if (command == 'menu3' || command == 'menugrupos') {
 m.react('🔰') 
-conn.sendButton(m.chat, submenu, grupos, pickRandom([img, img1, img2]), [['𝐃𝐄𝐒𝐂𝐀𝐑𝐆𝐀𝐑', `.descarga`], ['𝐕𝐄𝐋𝐎𝐂𝐈𝐃𝐀𝐃', `.ping`]], null, [['𝐍𝐨𝐯𝐚𝐁𝐨𝐭-𝐌𝐃', `${pickRandom([nna, nn, md, yt])}`]], m)
+conn.sendButton(m.chat, submenu, grupos, pickRandom([img, img1, img2]), [['𝐃𝐄𝐒𝐂𝐀𝐑𝐆𝐀𝐑', `.descarga`], ['𝐕𝐄𝐋𝐎𝐂𝐈𝐃𝐀𝐃', `.ping`]], null, [['𝐇𝐘𝐏𝐄𝐑𝐗', `${pickRandom([nna, nn, md, yt])}`]], m)
 /*conn.sendMessage(m.chat, { text: submenu + grupos,  
 contextInfo:{  
 forwardedNewsletterMessageInfo: { 
@@ -485,7 +478,7 @@ sourceUrl: `${pickRandom([nna, nn, md, yt])}`
 
 if (command == 'menu4' || command == 'menubuscadores') {
 m.react('🪄') 
-conn.sendButton(m.chat, submenu, buscadores, pickRandom([img, img1, img2]), [['🎮 𝐉𝐔𝐄𝐆𝐎𝐒', `.menu5`], ['✅ 𝐒𝐓𝐀𝐓𝐔𝐒', `.status`]], null, [['𝐍𝐨𝐯𝐚𝐁𝐨𝐭-𝐌𝐃', `${pickRandom([nna, nn, md, yt])}`]], m)
+conn.sendButton(m.chat, submenu, buscadores, pickRandom([img, img1, img2]), [['🎮 𝐉𝐔𝐄𝐆𝐎𝐒', `.menu5`], ['✅ 𝐒𝐓𝐀𝐓𝐔𝐒', `.status`]], null, [['𝐇𝐘𝐏𝐄𝐑𝐗', `${pickRandom([nna, nn, md, yt])}`]], m)
 /*conn.sendMessage(m.chat, { text: submenu + buscadores,  
 contextInfo:{  
 forwardedNewsletterMessageInfo: { 
@@ -508,7 +501,7 @@ sourceUrl: `${pickRandom([nna, nn, md, yt])}`
 
 if (command == 'menu5' || command == 'menujuegos') {
 m.react('👾') 
-conn.sendButton(m.chat, submenu, juegos, pickRandom([img, img1, img2]), [['𝐌𝐄𝐍𝐔 𝐄𝐅𝐄𝐂𝐓𝐎', `.menu6`], ['𝐕𝐄𝐋𝐎𝐂𝐈𝐃𝐀𝐃', `.ping`]], null, [['𝐍𝐨𝐯𝐚𝐁𝐨𝐭-𝐌𝐃', `${pickRandom([nna, nn, md, yt])}`]], m)
+conn.sendButton(m.chat, submenu, juegos, pickRandom([img, img1, img2]), [['𝐌𝐄𝐍𝐔 𝐄𝐅𝐄𝐂𝐓𝐎', `.menu6`], ['𝐕𝐄𝐋𝐎𝐂𝐈𝐃𝐀𝐃', `.ping`]], null, [['𝐇𝐘𝐏𝐄𝐑𝐗', `${pickRandom([nna, nn, md, yt])}`]], m)
 /*conn.sendMessage(m.chat, { text: submenu + juegos,  
 contextInfo:{  
 forwardedNewsletterMessageInfo: { 
@@ -531,7 +524,7 @@ sourceUrl: `${pickRandom([nna, nn, md, yt])}`
 
 if (command == 'menu6' || command == 'menuefecto') {
 m.react('🎤') 
-conn.sendButton(m.chat, submenu, efecto, pickRandom([img, img1, img2]), [['𝐂𝐎𝐍𝐕𝐄𝐑𝐓𝐈𝐃𝐎𝐑𝐄𝐒', `.menu7`], ['𝐑𝐄𝐆𝐋𝐀𝐒', `.reglas`]], null, [['𝐍𝐨𝐯𝐚𝐁𝐨𝐭-𝐌𝐃', `${pickRandom([nna, nn, md, yt])}`]], m)
+conn.sendButton(m.chat, submenu, efecto, pickRandom([img, img1, img2]), [['𝐂𝐎𝐍𝐕𝐄𝐑𝐓𝐈𝐃𝐎𝐑𝐄𝐒', `.menu7`], ['𝐑𝐄𝐆𝐋𝐀𝐒', `.reglas`]], null, [['𝐇𝐘𝐏𝐄𝐑𝐗', `${pickRandom([nna, nn, md, yt])}`]], m)
 /*conn.sendMessage(m.chat, { text: submenu + efecto,  
 contextInfo:{  
 forwardedNewsletterMessageInfo: { 
@@ -554,7 +547,7 @@ sourceUrl: `${pickRandom([nna, nn, md, yt])}`
 
 if (command == 'menu7' || command == 'menuconvertidores') {
 m.react('🧧') 
-conn.sendButton(m.chat, submenu, efecto, pickRandom([img, img1, img2]), [['𝐂𝐎𝐍𝐕𝐄𝐑𝐓𝐈𝐃𝐎𝐑𝐄𝐒', `.menu7`], ['𝐑𝐄𝐆𝐋𝐀𝐒', `.reglas`]], null, [['𝐍𝐨𝐯𝐚𝐁𝐨𝐭-𝐌𝐃', `${pickRandom([nna, nn, md, yt])}`]], m)
+conn.sendButton(m.chat, submenu, efecto, pickRandom([img, img1, img2]), [['𝐂𝐎𝐍𝐕𝐄𝐑𝐓𝐈𝐃𝐎𝐑𝐄𝐒', `.menu7`], ['𝐑𝐄𝐆𝐋𝐀𝐒', `.reglas`]], null, [['𝐇𝐘𝐏𝐄𝐑𝐗', `${pickRandom([nna, nn, md, yt])}`]], m)
 /*conn.sendMessage(m.chat, { text: submenu + convertidores,  
 contextInfo:{  
 forwardedNewsletterMessageInfo: { 
@@ -578,7 +571,7 @@ sourceUrl: `${pickRandom([nna, nn, md, yt])}`
 
 if (command == 'menu18' || command == 'Menuhony') {
 m.react('🥵') 
-conn.sendButton(m.chat, submenu, menu18, pickRandom([img, img1, img2]), [['𝐌𝐄𝐍𝐔-𝐑𝐀𝐍𝐃𝐎𝐖', `.menu8`], ['𝐕𝐄𝐋𝐎𝐂𝐈𝐃𝐀𝐃', `.ping`]], null, [['𝐍𝐨𝐯𝐚𝐁𝐨𝐭-𝐌𝐃', `${pickRandom([nna, nn, md, yt])}`]], m)
+conn.sendButton(m.chat, submenu, menu18, pickRandom([img, img1, img2]), [['𝐌𝐄𝐍𝐔-𝐑𝐀𝐍𝐃𝐎𝐖', `.menu8`], ['𝐕𝐄𝐋𝐎𝐂𝐈𝐃𝐀𝐃', `.ping`]], null, [['𝐇𝐘𝐏𝐄𝐑𝐗', `${pickRandom([nna, nn, md, yt])}`]], m)
 /*conn.sendMessage(m.chat, { text: submenu + menu18,  
 contextInfo:{  
 forwardedNewsletterMessageInfo: { 
@@ -601,7 +594,7 @@ sourceUrl: `${pickRandom([nna, nn, md, yt])}`
 
 if (command == 'menurandow' || command == 'menu8') {
 m.react('⛩️') 
-conn.sendButton(m.chat, submenu, menurandow, pickRandom([img, img1, img2]), [['𝐌𝐄𝐍𝐔-𝐑𝐏𝐆', `.menu9`], ['𝐋𝐎𝐆𝐎𝐒', `.logos`]], null, [['𝐍𝐨𝐯𝐚𝐁𝐨𝐭-𝐌𝐃', `${pickRandom([nna, nn, md, yt])}`]], m)
+conn.sendButton(m.chat, submenu, menurandow, pickRandom([img, img1, img2]), [['𝐌𝐄𝐍𝐔-𝐑𝐏𝐆', `.menu9`], ['𝐋𝐎𝐆𝐎𝐒', `.logos`]], null, [['𝐇𝐘𝐏𝐄𝐑𝐗', `${pickRandom([nna, nn, md, yt])}`]], m)
 /*conn.sendMessage(m.chat, { text: submenu + menurandow,  
 contextInfo:{  
 forwardedNewsletterMessageInfo: { 
@@ -624,7 +617,7 @@ sourceUrl: `${pickRandom([nna, nn, md, yt])}`
 
 if (command == 'menuRPG' || command == 'menu9') {
 m.react('⚒️') 
-conn.sendButton(m.chat, submenu, menuRPG, pickRandom([img, img1, img2]), [['𝐌𝐄𝐍𝐔-𝐒𝐓𝐈𝐂𝐊𝐄𝐑', `.menu10`], ['𝐕𝐄𝐋𝐎𝐂𝐈𝐃𝐀𝐃', `.ping`]], null, [['𝐍𝐨𝐯𝐚𝐁𝐨𝐭-𝐌𝐃', `${pickRandom([nna, nn, md, yt])}`]], m)
+conn.sendButton(m.chat, submenu, menuRPG, pickRandom([img, img1, img2]), [['𝐌𝐄𝐍𝐔-𝐒𝐓𝐈𝐂𝐊𝐄𝐑', `.menu10`], ['𝐕𝐄𝐋𝐎𝐂𝐈𝐃𝐀𝐃', `.ping`]], null, [['𝐇𝐘𝐏𝐄𝐑𝐗', `${pickRandom([nna, nn, md, yt])}`]], m)
 /*conn.sendMessage(m.chat, { text: submenu + menuRPG,  
 contextInfo:{  
 forwardedNewsletterMessageInfo: { 
@@ -647,7 +640,7 @@ sourceUrl: `${pickRandom([nna, nn, md, yt])}`
 
 if (command == 'menuSticker' || command == 'menu10') {
 m.react('🎈') 
-conn.sendButton(m.chat, submenu, menuSticker, pickRandom([img, img1, img2]), [['𝐌𝐄𝐍𝐔-𝐎𝐖𝐍𝐄𝐑', `.menu11`], ['𝐄𝐒𝐓𝐀𝐃𝐎', `.estado`]], null, [['𝐍𝐨𝐯𝐚𝐁𝐨𝐭-𝐌𝐃', `${pickRandom([nna, nn, md, yt])}`]], m)
+conn.sendButton(m.chat, submenu, menuSticker, pickRandom([img, img1, img2]), [['𝐌𝐄𝐍𝐔-𝐎𝐖𝐍𝐄𝐑', `.menu11`], ['𝐄𝐒𝐓𝐀𝐃𝐎', `.estado`]], null, [['𝐇𝐘𝐏𝐄𝐑𝐗', `${pickRandom([nna, nn, md, yt])}`]], m)
 /*conn.sendMessage(m.chat, { text: submenu + menuSticker,  
 contextInfo:{  
 forwardedNewsletterMessageInfo: { 
@@ -670,7 +663,7 @@ sourceUrl: `${pickRandom([nna, nn, md, yt])}`
 
 if (command == 'menuOwner' || command == 'menu11') {
 m.react('👑') 
-conn.sendButton(m.chat, submenu, menuOwner, pickRandom([img, img1, img2]), [['𝐌𝐄𝐍𝐔 𝐂𝐎𝐌𝐏𝐋𝐄𝐓𝐎', `.allmenu`], ['𝐕𝐄𝐋𝐎𝐂𝐈𝐃𝐀𝐃', `.ping`]], null, [['𝐍𝐨𝐯𝐚𝐁𝐨𝐭-𝐌𝐃', `${pickRandom([nna, nn, md, yt])}`]], m)
+conn.sendButton(m.chat, submenu, menuOwner, pickRandom([img, img1, img2]), [['𝐌𝐄𝐍𝐔 𝐂𝐎𝐌𝐏𝐋𝐄𝐓𝐎', `.allmenu`], ['𝐕𝐄𝐋𝐎𝐂𝐈𝐃𝐀𝐃', `.ping`]], null, [['𝐇𝐘𝐏𝐄𝐑𝐗', `${pickRandom([nna, nn, md, yt])}`]], m)
 /*conn.sendMessage(m.chat, { text: submenu + menuOwner,  
 contextInfo:{  
 forwardedNewsletterMessageInfo: { 
