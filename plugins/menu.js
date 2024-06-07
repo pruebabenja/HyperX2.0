@@ -20,31 +20,21 @@ let rtotalreg = Object.values(global.db.data.users).filter(user => user.register
 const date = moment.tz('America/Bogota').format('DD/MM/YYYY')
 const time = moment.tz('America/Argentina/Buenos_Aires').format('LT')
 let wa = m.key.id.length > 21 ? 'Android' : m.key.id.substring(0, 2) == '3A' ? 'IOS' : 'whatsapp web'
-let submenu = `╭┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈⪩
+let submenu = `𝐇𝐘𝐏𝐄𝐑𝐗 𝐓𝐄 𝐃𝐀 𝐋𝐀 𝐂𝐎𝐑𝐃𝐈𝐀𝐋 𝐁𝐈𝐄𝐍𝐕𝐄𝐍𝐈𝐃𝐀 @${m.sender.split`@`[0]}
 ┏━━━━━━━━━━━┓
-┣ \`✅𝐇𝐘𝐏𝐄𝐑𝐗 𝐁𝐎𝐓\`
+┣ \`✅𝐌𝐄𝐍𝐔 𝐂𝐎𝐌𝐏𝐋𝐄𝐓𝐎\`
 ┗━━━━━━━━━━━┛
 ┏━━━━━━━━━━━┓
-┣ ${prefix}
-┣ ${prefix}
-┣ ${prefix}
-┣ ${prefix}
-┣ ${prefix}
-┣ ${prefix}
-┣ ${prefix}
-┣ ${prefix}
-┣ ${prefix}
-┣ ${prefix}
-┣ ${prefix}
-┣ ${prefix}
-┣ ${prefix}
-┣ ${prefix}
-┣ ${prefix}
+┣ \`✅𝐂𝐑𝐄𝐀𝐃𝐎𝐑 𝐇𝐘𝐏𝐄𝐑𝐗\`
+┣ +51 936732723
+┣ \`✅Para comprar el bot o para obtener informacion, porfavor comunicate con mi creador.\`
 ┗━━━━━━━━━━━┛
-╰┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈⪩ 
+┏━━━━━━━━━━━┓
+┣ \`✅𝐃𝐈𝐒𝐅𝐑𝐔𝐓𝐀 𝐃𝐄𝐋 𝐁𝐎𝐓 𝐇𝐘𝐏𝐄𝐑𝐗\`
+┗━━━━━━━━━━━┛
 
-${pickRandom([`\`𝐐𝐮𝐢𝐞𝐫𝐞𝐬 𝐨𝐛𝐭𝐞𝐧𝐞𝐫 𝐭𝐮 𝐛𝐨𝐭 𝐩𝐞𝐫𝐬𝐨𝐧𝐚𝐥𝐢𝐳𝐚𝐝𝐨?\`
-https://www.facebook.com/elrebelde21`, `\`□ CÓMO INSTALAR EL BOT\`\n${yt}`, `\`¿Qué hay de nuevo?\`\n• Pon : ${prefix}nuevo`, `\`💫 INFÓRMATE SOBRE LAS NUEVAS ACTUALIZACIONES, NOVEDADES DEL BOT AQUÍ\`\n${nna}`, `\`🌟¿Te agrada el bot? califica nuestro repo con una estrellita ☺\`\n${md}`, `Activar tu bot 24/7 con nuestro hosting\n${host}`])}\n\n`
+${pickRandom([`\`¡𝐐𝐮𝐢𝐞𝐫𝐞𝐬 𝐜𝐨𝐦𝐩𝐫𝐚𝐫 𝐚 𝐇𝐲𝐩𝐞𝐫𝐗?\`
+wa.me/51936732723
 let descargar = `
 ┏━━━━━━━━━━━┓
 ┣ \`✅𝐃𝐄𝐒𝐂𝐀𝐑𝐆𝐀𝐒 𝐇𝐘𝐏𝐄𝐑𝐗\`
