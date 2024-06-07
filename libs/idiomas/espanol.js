@@ -45,29 +45,15 @@ const smsAvisos8 = () => { return `ᴸᵃ ᵈᵉˢᶜʳᶦᵖᶜᶦᵒ́ⁿ ᵈ�
 const smsAvisos9 = () => { return `*ᴱˡ ⁿᵒᵐᵇʳᵉ ᵈᵉˡ ᵍʳᵘᵖᵒ ᶠᵘᵉ ᶜᵃᵐᵇᶦᵃᵈᵒ ⁿᵘᵉᵛᵒˢ ⁿᵒᵐᵇʳᵉ ᵉˢ*` }
 
 //welcome
-const smsWel =  () => { return `Hola` }
-const smsWel2 = () => { return `¿COMO ESTAS? 😃` }
-const smsWel3 = () => { return `¿COMO ESTAS?😃\n\n『Bienvenido A` }
-const smsWel4 = () => { return `Un gusto conocerte amig@ 🤗\n\n_Recuerda leer las reglas del grupo para no tener ningun problema 🧐_\n\n*Solo disfrutar de este grupo y divertite 🥳*` }
-const smsWel5 = () => { return `[ NUEVO MIEMBRO ]\n\n` }
-const smsWel6 = () => { return `𝘓𝘦 𝘥𝘢𝘮𝘰𝘴 𝘭𝘢 𝘣𝘪𝘦𝘯𝘷𝘦𝘯𝘪𝘥𝘢 𝘢` }
-const smsWel7 = () => { return `⪨────[ ＷＥＬＣＯＭＥ ]────⪩\n\n` }
-const smsWel8 = () => { return `💫 *Bienvenido a :*` }
-const smsWel9 = () => { return `💫 *Participantes*` }
-const smsWel10 = () => { return `💫 *Fecha*` }
-const smsWel11 = () => { return `📢 *Lee la descripcion* 📢\n` }
-const smsBye = () => { return `Adios` }
-const smsBye2 = () => { return `Bueno, se fue` }
-const smsBye3 = () => { return `Que dios lo bendiga 😎` }
-const smsBye4 = () => { return `Salió del grupo._` }
-const smsBye5 = () => { return `se fue\n┃ un fan de bts` }
-const promote = () => { return `Felicidades ahora eres parte del staff 🎉` }
-const demote = () => { return `ya no eres admins 🥲` }
+const smsWel = () => { return `𝐇𝐘𝐏𝐄𝐑𝐗 𝐓𝐄 𝐃𝐀 𝐋𝐀 𝐂𝐎𝐑𝐃𝐈𝐀𝐋 𝐁𝐈𝐄𝐍𝐕𝐄𝐍𝐈𝐃𝐀 𝐀 𝐄𝐒𝐓𝐄 𝐆𝐑𝐔𝐏𝐎\n\n𝐁𝐈𝐄𝐍𝐕𝐄𝐍𝐈𝐃𝐎` }
+const smsBye = () => { return `𝐇𝐘𝐏𝐄𝐑𝐗 𝐓𝐄 𝐃𝐀 𝐋𝐀 𝐂𝐎𝐑𝐃𝐈𝐀𝐋 𝐃𝐄𝐒𝐏𝐄𝐃𝐈𝐃𝐀 𝐃𝐄 𝐄𝐒𝐓𝐄 𝐆𝐑𝐔𝐏𝐎\n\n𝐀𝐃𝐈𝐎𝐒` }
+const promote = () => { return `𝐇𝐘𝐏𝐄𝐑𝐗 𝐃𝐄𝐓𝐄𝐂𝐓𝐎 𝐐𝐔𝐄 𝐄𝐑𝐄𝐒 𝐔𝐍 𝐍𝐔𝐄𝐕𝐎 𝐀𝐃𝐌𝐈𝐍 𝐃𝐄𝐋 𝐆𝐑𝐔𝐏𝐎!` }
+const demote = () => { return `𝐇𝐘𝐏𝐄𝐑𝐗 𝐃𝐄𝐓𝐄𝐂𝐓𝐎 𝐐𝐔𝐄 𝐘𝐀 𝐍𝐎 𝐄𝐑𝐄𝐒 𝐔𝐍 𝐍𝐔𝐄𝐕𝐎 𝐀𝐃𝐌𝐈𝐍 𝐃𝐄𝐋 𝐆𝐑𝐔𝐏𝐎!` }
 
 //mensaje el la consola inicio
 const smsConexion = () => { return `🟢 𝘜𝘚𝘜𝘈𝘙𝘐𝘖 𝘊𝘖𝘕𝘌𝘊𝘛𝘈𝘋𝘖 =>` }
-const smsEscaneaQR = () => { return `ESCANEA EL QR, EXPIRA 45 SEG...` }
-const smsConectado = () => { return `YA ESTA CONECTADO CORRECTAMENTE` }
+const smsEscaneaQR = () => { return `ESCANEA EL QR HYPERX, EXPIRA 45 SEG...` }
+const smsConectado = () => { return `YA ESTA CONECTADO CORRECTAMENTE A HYPERX` }
 const smsConexionOFF = () => { return `[ ⚠️ ]  Conexion cerrada, por favor elimina la carpeta sessions y escanea nuevamente.`}
 const smsConexioncerrar = () => { return `⚠️ CONEXION CERRADA, SE INTENTARA RECONECTAR` }
 const smsConexionperdida = () => { return `[ ⚠️ ] Conexión perdida con el servidor, reconectando...`}
@@ -87,13 +73,13 @@ text6: `MENSAJE:` }
 
 //autobio
 const Bio = { 
-text: `🦁 ɴᴏᴠᴀʙᴏᴛ - ᴛᴇɴɢᴏ:`, 
+text: `🦁 𝐇𝐘𝐏𝐄𝐑𝐗 - ᴛᴇɴɢᴏ:`, 
 text2: `ᴜsᴜᴀʀɪᴏs ᴜsᴀᴅᴏʀᴍᴇ ᴘᴜᴇᴅᴏ ʀᴇsᴘᴏɴᴅᴇ ʟᴇɴᴛᴀ ᴍɪ ᴠᴇʟᴏᴄɪᴅᴀᴅ ᴅᴇ ʀᴇsᴘᴜᴇsᴛᴀ ᴇs:`,
-text3: `👑 ɴᴏᴠᴀʙᴏᴛ-ᴍᴅ | ᴀᴄᴛɪᴠᴏ ✅️:`, 
+text3: `👑 𝐇𝐘𝐏𝐄𝐑𝐗 | ᴀᴄᴛɪᴠᴏ ✅️:`, 
 text4: `ᴘᴀʀᴀ ᴠᴇᴢ ᴍɪ ʟɪsᴛᴀ ᴅᴇ ᴄᴏᴍᴀɴᴅᴏ ᴜsᴀʀ #menu`, 
-text5: `ɴᴏᴠᴀʙᴏᴛ ᴘᴏʀ ʟᴏʟɪʙᴏᴛ - sᴜʙsᴄʀɪʙɪʀᴛᴇ ᴇʟ ɴᴜᴇsᴛʀᴏ ᴄᴀɴᴀʟ ᴅᴇʟ ʏᴏᴜᴛᴜʙᴇ 🔔\nhttps://www.youtube.com/@elrebelde.21`, 
+text5: `𝐇𝐘𝐏𝐄𝐑𝐗 ᴘᴏʀ 𝐇𝐘𝐏𝐄𝐑𝐗`, 
 text6: `✅ Actividad:`, 
-text7: `👥 Usuarios:` }
+text7: `👥 Usuarios𝐇𝐘𝐏𝐄𝐑𝐗:` }
 
 //antiarabe
 const smsAntiFake = () => { return `✳️ En este grupo no esta permitido numero fake sera expulsado...` }
@@ -140,7 +126,7 @@ const bot = () => { return `*⚠️ Este comando solo (YO) lo puedo usar*` }
 const error = () => { return `⪨╼╼≪⚠️ ERROR ⚠️≫╾╼⪩\n\nOCURRIÓ UN ERROR INESPERADO, (API CAIDA 😢)` }
 const AvisoMG = () => { return `⪨╼╼≪⚠️ ACCION MAL USADA ⚠️≫╾╼⪩\n\n` }
 const advertencia = () => { return `[ ⚠️ ＡＤＶＥＲＴＥＮＣＩＡ ]` }
-const registra = () => { return `*[ 🔴 HEY ALTO NO ESTAS REGISTRADO 🔴 ]*\n\nNO APARECES EN MI BASE DE DATOS ✋\n\nPara poder usar el bot necesita estar registrado:\n\n#reg nombre.edad` }
+const registra = () => { return `*[ 𝐇𝐘𝐏𝐄𝐑𝐗 𝐃𝐄𝐓𝐄𝐂𝐓𝐎 𝐐𝐔𝐄 𝐍𝐎 𝐄𝐒𝐓𝐀𝐒 𝐑𝐄𝐆𝐈𝐒𝐓𝐑𝐀𝐃𝐎 ]*\n\n𝐍𝐎 𝐓𝐄 𝐄𝐍𝐂𝐔𝐄𝐍𝐓𝐑𝐎 𝐄𝐍 𝐋𝐀 𝐁𝐀𝐒𝐄 𝐃𝐄 𝐃𝐀𝐓𝐎𝐒\n\n𝐏𝐎𝐑𝐅𝐀𝐕𝐎𝐑 𝐑𝐄𝐆𝐈𝐒𝐓𝐑𝐀𝐓𝐄 𝐏𝐀𝐑𝐀 𝐔𝐒𝐀𝐑 𝐄𝐒𝐓𝐄 𝐂𝐎𝐌𝐀𝐍𝐃𝐎:\n\n#reg nombre.edad` }
 const limit = () => { return `*ᴅɪᴀᴍᴀɴᴛᴇ 💎 ᴜsᴀᴅᴏ*` }
 const AntiNsfw = () => { return `*Los comando +18 esta desactivado*\nSi eres admin y quiere activarlos usar:\n• modocaliente on` }
 const endLimit = () => { return `*😢 NOO TIENE MAS DIAMANTE 💎*\n\nPuede comprar mas usando el comando: #buy` }
@@ -189,7 +175,7 @@ text7: `𝘠 𝘭𝘢 𝘪𝘮𝘢𝘨𝘦𝘯? 𝘙𝘦𝘴𝘱𝘰𝘯𝘥𝘦
 }
 
 const info = {
-text: `𝐄𝐒𝐓𝐀𝐃𝐎 𝐃𝐄𝐋 𝐁𝐎𝐓`, 
+text: `𝐄𝐒𝐓𝐀𝐃𝐎 𝐃𝐄𝐋 𝐇𝐘𝐏𝐄𝐑𝐗𝐁𝐎𝐓`, 
 text2: `➢ 𝚁𝙰𝙼 𝙳𝙴𝙻 𝚂𝙴𝚁𝚅𝙸𝙳𝙾𝚁 :`, 
 text3: `➢ 𝙿𝙻𝙰𝚃𝙰𝙵𝙾𝚁𝙼𝙰 :`, 
 text4: `➢ 𝙷𝙾𝚃𝚂 :`, 
@@ -200,8 +186,8 @@ text8: `➢ 𝙰𝙲𝚃𝙸𝚅𝙾 :`,
 text9: `➢ 𝙼𝙾𝙳𝙾 :`, 
 text10: `➢ 𝙱𝙾𝚃 𝚂𝙴𝙲𝚄𝙽𝙳𝙰𝚁𝙸𝙾𝚂 𝙰𝙲𝚃𝙸𝚅𝙾𝚂 :`, 
 text11: `➢ 𝐒𝐨𝐲 𝐮𝐧 𝐒𝐮𝐛𝐁𝐨𝐭 𝐝𝐞 :`,
-text12: `𝐚𝐪𝐮𝐢 𝐭𝐢𝐞𝐧𝐞 𝐞𝐥 𝐧𝐮𝐦𝐞𝐫𝐨 𝐝𝐞 𝐦𝐢 𝐩𝐫𝐨𝐩𝐢𝐞𝐭𝐚𝐫𝐢𝐨, 𝐬𝐨𝐥𝐨 𝐡𝐚𝐛𝐥𝐚𝐫𝐥𝐞 𝐩𝐨𝐫 𝐝𝐮𝐝𝐚𝐬, 𝐩𝐫𝐨𝐛𝐥𝐞𝐦𝐚𝐬 𝐬𝐨𝐛𝐫𝐞 𝐞𝐥 𝐛𝐨𝐭.\n\nᴺᵒ ʰᵃᵍᵃⁿ ˢᵖᵃᵐ ᵃ ᵐᶦ ᶜʳᵉᵃᵈᵒʳ ᵒ ᵠᵘᵉ ᵇˡᵒᵠᵘᵉᵃ`, 
-text13: `*ʜᴏʟᴀ ᴇsᴛɪᴍᴀᴅᴏs ᴜsᴜᴀʀɪᴏs 👋🏻, ᴛᴇ ɪɴᴠɪᴛᴏ ᴀ ᴜɴɪʀᴛᴇ ᴀ ʟᴏs ɢʀᴜᴘᴏs ᴏғɪᴄɪᴀʟᴇs ᴅᴇ ʟᴀs ғᴀᴍɪʟᴀs ᴛʜᴇ ʟᴏʟɪʙᴏᴛ-ᴍᴅ ʏ ɴᴏᴠᴀʙᴏᴛ-ᴍᴅ, ᴘᴀʀᴀ ᴄᴏɴᴠɪᴠɪʀ ᴄᴏɴ ʟᴀ ᴄᴏᴍᴜɴɪᴅᴀᴅ :ᴠ*\n\n*➤ ɢʀᴜᴘᴏs ᴏғɪᴄɪᴀʟᴇs ᴅᴇʟ ʙᴏᴛ:*`, 
+text12: `𝐚𝐪𝐮𝐢 𝐭𝐢𝐞𝐧𝐞 𝐞𝐥 𝐧𝐮𝐦𝐞𝐫𝐨 𝐝𝐞 𝐦𝐢 𝐩𝐫𝐨𝐩𝐢𝐞𝐭𝐚𝐫𝐢𝐨 𝐇𝐘𝐏𝐄𝐑𝐗, 𝐬𝐨𝐥𝐨 𝐡𝐚𝐛𝐥𝐚𝐫𝐥𝐞 𝐩𝐨𝐫 𝐝𝐮𝐝𝐚𝐬, 𝐩𝐫𝐨𝐛𝐥𝐞𝐦𝐚𝐬 𝐬𝐨𝐛𝐫𝐞 𝐞𝐥 𝐛𝐨𝐭.\n\nᴺᵒ ʰᵃᵍᵃⁿ ˢᵖᵃᵐ ᵃ ᵐᶦ ᶜʳᵉᵃᵈᵒʳ ᵒ ᵠᵘᵉ ᵇˡᵒᵠᵘᵉᵃ`, 
+text13: `*ʜᴏʟᴀ ᴇsᴛɪᴍᴀᴅᴏs ᴜsᴜᴀʀɪᴏs 👋🏻, ᴛᴇ ɪɴᴠɪᴛᴏ ᴀ ᴜɴɪʀᴛᴇ ᴀ ʟᴏs ɢʀᴜᴘᴏs ᴏғɪᴄɪᴀʟᴇs ᴅᴇ ʟᴀs ғᴀᴍɪʟᴀs ᴛʜᴇ 𝐇𝐘𝐏𝐄𝐑𝐗, ᴘᴀʀᴀ ᴄᴏɴᴠɪᴠɪʀ ᴄᴏɴ ʟᴀ ᴄᴏᴍᴜɴɪᴅᴀᴅ :ᴠ*\n\n*➤ ɢʀᴜᴘᴏs ᴏғɪᴄɪᴀʟᴇs ᴅᴇʟ ʙᴏᴛ 𝐇𝐘𝐏𝐄𝐑𝐗:*`, 
 text14: `*➤ ɢʀᴜᴘᴏ ᴅᴇʟ ᴄᴏʟᴀʙᴏʀᴀᴄɪᴏɴ:*`, 
 text15: `*➤ ɢʀᴜᴘᴏs ᴛᴇsᴛ ᴘᴀʀᴀ ᴘʀᴜᴇʙᴀ ᴅᴇʟ ʙᴏᴛ:*`, 
 text16: `*➤ ɪɴғᴏᴍᴀʀᴛᴇ sᴏʙʀᴇ ʟᴀs ɴᴜᴇᴠᴀs ᴀᴄᴛᴜᴀʟɪᴢᴀᴄɪᴏɴᴇs ᴅᴇʟ ʙᴏᴛ ᴀǫᴜɪ:*`, 
