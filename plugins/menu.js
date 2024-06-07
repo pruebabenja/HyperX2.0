@@ -31,7 +31,7 @@ let submenu = `𝐇𝐘𝐏𝐄𝐑𝐗 𝐓𝐄 𝐃𝐀 𝐋𝐀 𝐂𝐎𝐑�
 ┗━━━━━━━━━━━┛
 ┏━━━━━━━━━━━┓
 ┣ \`✅𝐃𝐈𝐒𝐅𝐑𝐔𝐓𝐀 𝐃𝐄𝐋 𝐁𝐎𝐓 𝐇𝐘𝐏𝐄𝐑𝐗\`
-┗━━━━━━━━━━━┛
+┗━━━━━━━━━━━┛`
 
 ${pickRandom([`\`¡𝐐𝐮𝐢𝐞𝐫𝐞𝐬 𝐜𝐨𝐦𝐩𝐫𝐚𝐫 𝐚 𝐇𝐲𝐩𝐞𝐫𝐗?\`
 wa.me/51936732723
@@ -1087,7 +1087,7 @@ let menu = `𝐇𝐘𝐏𝐄𝐑𝐗 𝐓𝐄 𝐃𝐀 𝐋𝐀 𝐂𝐎𝐑𝐃
 ┣ ${prefix}reiniciar
 ┗━━━━━━━━━━━┛`
 
-conn.sendButton(m.chat, menu, 𝑯𝒀𝑷𝑬𝑹𝑿, menu2, [['𝐈𝐍𝐅𝐎', `.status`], ['𝐆𝐑𝐔𝐏𝐎𝐒', `.grupos`]], null, [['𝑯𝒀𝑷𝑬𝑹𝑿', `${pickRandom([nna, nn, md, yt])}`]], m)
+conn.sendButton(m.chat, menu, botname, img, [['𝐈𝐍𝐅𝐎', `.status`], ['𝐆𝐑𝐔𝐏𝐎𝐒', `.grupos`]], null, [['𝐇𝐲𝐩𝐞𝐫𝐗', `${pickRandom([nna, nn, md, yt])}`]], m)
 /*conn.sendMessage(m.chat, { text: menu,  
 contextInfo:{  
 forwardedNewsletterMessageInfo: { 
