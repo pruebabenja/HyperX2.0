@@ -40,339 +40,310 @@ let submenu = `╭┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈⪩
 
 ${pickRandom([`\`𝐐𝐮𝐢𝐞𝐫𝐞𝐬 𝐨𝐛𝐭𝐞𝐧𝐞𝐫 𝐭𝐮 𝐛𝐨𝐭 𝐩𝐞𝐫𝐬𝐨𝐧𝐚𝐥𝐢𝐳𝐚𝐝𝐨?\`
 https://www.facebook.com/elrebelde21`, `\`□ CÓMO INSTALAR EL BOT\`\n${yt}`, `\`¿Qué hay de nuevo?\`\n• Pon : ${prefix}nuevo`, `\`💫 INFÓRMATE SOBRE LAS NUEVAS ACTUALIZACIONES, NOVEDADES DEL BOT AQUÍ\`\n${nna}`, `\`🌟¿Te agrada el bot? califica nuestro repo con una estrellita ☺\`\n${md}`, `Activar tu bot 24/7 con nuestro hosting\n${host}`])}\n\n`
-let descargar = `╭┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈⪩
-┊┏━━━━━━━━━━━━━━•
-┊┃ *🚀 ＭＥＮＵ ＤＥＳＣＡＲＧＡＳ 🚀*
-┊┃━━━━━━━━━━━━━━•
-┊┃ ❏ ${prefix}play _(descargar música)_
-┊┃ ❏ ${prefix}play2 _(descargar video)_
-┊┃ ❏ ${prefix}play.1 _(descargar música)_
-┊┃ ❏ ${prefix}play.2 _(descargar video)_
-┊┃ ❏ ${prefix}musica
-┊┃ ❏ ${prefix}video
-┊┃ ❏ ${prefix}playdoc
-┊┃ ❏ ${prefix}play3 _(descargar audio en documento)_
-┊┃ ❏ ${prefix}play4 _(descargar video en documento)_
-┊┃ ❏ ${prefix}yts _(buscador de youtube)_
-┊┃ ❏ ${prefix}ytmp3 _(link para descargar el audio)_
-┊┃ ❏ ${prefix}ytmp4 _(link para descargar el video)_
-┊┃ ❏ ${prefix}spotify
-┊┃ ❏ ${prefix}music _(Descargar musica de Spotify)_
-┊┃ ❏ ${prefix}gitclone _(descargar repositorio de GitHub)_
-┊┃ ❏ ${prefix}tiktok _(descargar video de tiktok)_
-┊┃ ❏ ${prefix}tiktokimg
-┊┃ ❏ ${prefix}ttimg _(descargar imagen de tiktok)_
-┊┃ ❏ ${prefix}igstalk _(nombre de un usuario de ig)_
-┊┃ ❏ ${prefix}facebook
-┊┃ ❏ ${prefix}fb _(descargar videos de Facebook)_
-┊┃ ❏ ${prefix}instagram
-┊┃ ❏ ${prefix}ig _(descargar videos de Instagram)_
-┊┃ ❏ ${prefix}mediafire _(descargar archivo de mediafire)_
-┊┃ ❏ ${prefix}tiktokstalk _(nombre del usuario de TikTok)_
-┊┃ ❏ ${prefix}twitter
-┊┃ ❏ ${prefix}x _(descargar video de twiter (X)_
-┊┃ ❏ ${prefix}gdrive _(descargar archivos de gdrive)_
-┊┗━━━━━━━━━━━━━━•
-╰┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈⪩`
-let grupos = `╭┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈⪩
-┊┏━━━━━━━━━━━━━━•
-┊┃ *🔰 ＭＥＮＵ ＰＡＲＡ ⃐ＧＲＵＰＯＳ 🔰*
-┊┃━━━━━━━━━━━━━━•
-┊┃Gestiona tu grupo con NovaBot
-┊┃━━━━━━━━━━━━━━•
-┊┃ ❏ ${prefix}welcome _(on/off)_
-┊┃ ❏ ${prefix}antilink _(on/off)_
-┊┃ ❏ ${prefix}antienlace _(on/off)_
-┊┃ ❏ ${prefix}antifake _(on/off)_
-┊┃ ❏ ${prefix}antiarabe _(on/off)_
-┊┃ ❏ ${prefix}antitoxic _(on/off)_
-┊┃ ❏ ${prefix}antilink2 _(on/off)_
-┊┃ ❏ ${prefix}AntiTwiter _(on/off)_
-┊┃ ❏ ${prefix}antitiktok _(on/off)_
-┊┃ ❏ ${prefix}AntiTikTok _(on/off)_
-┊┃ ❏ ${prefix}antitelegram _(on/off)_
-┊┃ ❏ ${prefix}AntiTelegram _(on/off)_
-┊┃ ❏ ${prefix}antifacebook _(on/off)_
-┊┃ ❏ ${prefix}AntiFb _(on/off)_
-┊┃ ❏ ${prefix}AntiFaceBook _(on/off)_
-┊┃ ❏ ${prefix}AntInstagram _(on/off)_
-┊┃ ❏ ${prefix}AntiIg _(on/off)_
-┊┃ ❏ ${prefix}antiyoutube _(on/off)_
-┊┃ ❏ ${prefix}AntiYoutube _(on/off)_
-┊┃ ❏ ${prefix}autosticker _(on/off)_
-┊┃ ❏ ${prefix}detect _(on/off)_
-┊┃ ❏ ${prefix}autodetect _(on/off)_
-┊┃ ❏ ${prefix}antinsfw _(on/off)_
-┊┃ ❏ ${prefix}modocaliente _(on/off)_
-┊┃ ❏ ${prefix}autosticker _(on/off)_
-┊┃ ❏ ${prefix}modoadmin _(on/off)_
-┊┃ ❏ ${prefix}audios _(on/off)_
-┊┃ ❏ ${prefix}chatbot _(on/off)_
-┊┃ ❏ ${prefix}autolevelup _(on/off)_
-┊┃ ❏ ${prefix}autonivel _(on/off)_
-┊┃ ❏ ${prefix}addrules _(text)_
-┊┃ ❏ ${prefix}setrules _(text)_
-┊┃ ❏ ${prefix}rules _(reglas del grupo)_
-┊┃ ❏ ${prefix}kick _(@tag)_
-┊┃ ❏ ${prefix}add _(@tag)_
-┊┃ ❏ ${prefix}invita _(@tag)_
-┊┃ ❏ ${prefix}promote _(@tag)_
-┊┃ ❏ ${prefix}demote _(@tag)_
-┊┃ ❏ ${prefix}infogrupo
-┊┃ ❏ ${prefix}groupinfo
-┊┃ ❏ ${prefix}admins _(invocar a los admins)_
-┊┃ ❏ ${prefix}grupo _(close/open)_
-┊┃ ❏ ${prefix}warn _(@tag)_
-┊┃ ❏ ${prefix}advertencia _(@tag)_
-┊┃ ❏ ${prefix}unwarn _(@tag)_
-┊┃ ❏ ${prefix}quitardvertencia _(@tag)_
-┊┃ ❏ ${prefix}setppname _(cambiar nombre del grupo)_
-┊┃ ❏ ${prefix}setdesc _(cambia la descripción del grupo)_
-┊┃ ❏ ${prefix}setppgroup _(cambiar la foto del grupo)_
-┊┃ ❏ ${prefix}anularlink 
-┊┃ ❏ ${prefix}resetlink _(restablecer el link del grupo)_
-┊┃ ❏ ${prefix}hidetag _(etiquetar a todos en un mensaje)_
-┊┃ ❏ ${prefix}tagall 
-┊┃ ❏ ${prefix}invocar _(invocar a todos en una lista)_
-┊┃ ❏ ${prefix}listonline _(usuarios online)_
-┊┗━━━━━━━━━━━━━━•
-╰┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈⪩`
+let descargar = `
+┏━━━━━━━━━━━┓
+┣ ＤＥＳＣＡＲＧＡＳ ＨＹＰＥＲＸ
+┗━━━━━━━━━━━┛
+┏━━━━━━━━━━━┓
+┣ ${prefix}play
+┣ ${prefix}play2
+┣ ${prefix}play.1
+┣ ${prefix}play.2
+┣ ${prefix}play3
+┣ ${prefix}play4
+┣ ${prefix}musica
+┣ ${prefix}video
+┣ ${prefix}playdoc
+┣ ${prefix}yts
+┣ ${prefix}ytmp3
+┣ ${prefix}ytmp4
+┣ ${prefix}spotify
+┣ ${prefix}music
+┣ ${prefix}tiktok
+┣ ${prefix}tiktokimg
+┣ ${prefix}ttimg
+┣ ${prefix}igstalk
+┣ ${prefix}facebook
+┣ ${prefix}fb
+┣ ${prefix}instagram
+┣ ${prefix}ig
+┣ ${prefix}mediafire
+┣ ${prefix}gdrive
+┗━━━━━━━━━━━┛`
+let grupos = `
+┏━━━━━━━━━━━┓
+┣ ＧＲＵＰＡＬＥＳ ＨＹＰＥＲＸ
+┗━━━━━━━━━━━┛
+┏━━━━━━━━━━━┓
+┣ ${prefix}welcome
+┣ ${prefix}antilink
+┣ ${prefix}antilink2
+┣ ${prefix}antifake
+┣ ${prefix}antiarabe
+┣ ${prefix}antitoxic
+┣ ${prefix}antienlace
+┣ ${prefix}antiTwiter
+┣ ${prefix}antitiktok
+┣ ${prefix}antiTiktok
+┣ ${prefix}antitelegram
+┣ ${prefix}antiTelegram
+┣ ${prefix}antifacebook
+┣ ${prefix}antifb
+┣ ${prefix}antiFacebook
+┣ ${prefix}antInstagram
+┣ ${prefix}antiIg
+┣ ${prefix}antiyoutube
+┣ ${prefix}antiYoutube
+┣ ${prefix}autosticker
+┣ ${prefix}detect
+┣ ${prefix}autodetect
+┣ ${prefix}antinsfw
+┣ ${prefix}modocaliente
+┣ ${prefix}autosticker
+┣ ${prefix}modoadmin
+┣ ${prefix}audios
+┣ ${prefix}chatbot
+┣ ${prefix}autolevelup
+┣ ${prefix}autonivel
+┣ ${prefix}kick
+┣ ${prefix}add
+┣ ${prefix}invita
+┣ ${prefix}promote
+┣ ${prefix}demote
+┣ ${prefix}infogrupo
+┣ ${prefix}groupinfo
+┣ ${prefix}admins
+┣ ${prefix}grupo
+┣ ${prefix}warn
+┣ ${prefix}advertencia
+┣ ${prefix}unwarn
+┣ ${prefix}quitaradvertencia
+┣ ${prefix}setppname
+┣ ${prefix}setdesc
+┣ ${prefix}setppgroup
+┣ ${prefix}anularlink
+┣ ${prefix}resetlink
+┣ ${prefix}hidetag
+┣ ${prefix}tagall
+┣ ${prefix}invocar
+┣ ${prefix}listonline
+┗━━━━━━━━━━━┛`
 
-let buscadores = `╭┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈⪩
-┊┏━━━━━━━━━━━━━━•
-┊┃ *🔎 ＭＥＮＵ ＢＵＳＣＡＤＯＲＥＳ 🔎*
-┊┃━━━━━━━━━━━━━━•
-┊┃ ❏ ${prefix}google _(buscar información con google)_
-┊┃ ❏ ${prefix}chatgpt
-┊┃ ❏ ${prefix}ia _(buscar información con la IA)_
-┊┃ ❏ ${prefix}bard _(buscar información)_
-┊┃ ❏ ${prefix}imagen _(imagen en google)_
-┊┃ ❏ ${prefix}traducir _(traducir algun texto)_
-┊┃ ❏ ${prefix}wallpaper _(imagen de wallpaper)_
-┊┃ ❏ ${prefix}ss _(link)_
-┊┃ ❏ ${prefix}dall-e
-┊┃ ❏ ${prefix}pinterest
-┊┃ ❏ ${prefix}wikipedia
-┊┃ ❏ ${prefix}gemini
-┊┃ ❏ ${prefix}copilot
-┊┃ ❏ ${prefix}wiki
-┊┃ ❏ ${prefix}ia2 _(crear imagen con la (IA)_
-┊┃ ❏ ${prefix}npmsearch _(Buscar información de NPM)_
-┊┃ ❏ ${prefix}styletext _(General diseños de letras)_
-┊┃ ❏ ${prefix}horario
-┊┗━━━━━━━━━━━━━━•
+let buscadores = `
+┏━━━━━━━━━━━┓
+┣ ＢＵＳＣＡＤＯＲＥＳ ＨＹＰＥＲＸ
+┗━━━━━━━━━━━┛
+┏━━━━━━━━━━━┓
+┣ ${prefix}google
+┣ ${prefix}chatgpt
+┣ ${prefix}ia
+┣ ${prefix}ia2
+┣ ${prefix}imagen
+┣ ${prefix}traducir
+┣ ${prefix}wallpaper
+┣ ${prefix}ss
+┣ ${prefix}dall-e
+┣ ${prefix}bard
+┣ ${prefix}horario
+┗━━━━━━━━━━━┛
 ╰┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈⪩`
-let juegos = `╭┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈⪩
-┊┏━━━━━━━━━━━━━━•
-┊┃ *👾 ＭＥＮＵ ＪＵＥＧＯＳ 👾*
-┊┃━━━━━━━━━━━━━━•
-┊┃ ❏ ${prefix}simi _(hablar con el bot)_
-┊┃ ❏ ${prefix}ppt _(piedra, papel, o tijera)_
-┊┃ ❏ ${prefix}gay @tag
-┊┃ ❏ ${prefix}pareja @tag
-┊┃ ❏ ${prefix}love @tag
-┊┃ ❏ ${prefix}follar @tag
-┊┃ ❏ ${prefix}topgays
-┊┃ ❏ ${prefix}topotakus
-┊┃ ❏ ${prefix}top
-┊┃ ❏ ${prefix}pregunta
-┊┃ ❏ ${prefix}verdad
-┊┃ ❏ ${prefix}reto
-┊┃ ❏ ${prefix}doxear
-┊┃ ❏ ${prefix}personalidad
-┊┃ ❏ ${prefix}racista
-┊┃ ❏ ${prefix}slot
-┊┃ ❏ ${prefix}math
-┊┃ ❏ ${prefix}matematicas
-┊┃ ❏ ${prefix}ttt
-┊┃ ❏ ${prefix}tictactoe
-┊┃ ❏ ${prefix}ttc
-┊┃ ❏ ${prefix}delttt
-┊┃ ❏ ${prefix}dado
-┊┃ ❏ ${prefix}piropo
-┊┃ ❏ ${prefix}ship
-┊┃ ❏ ${prefix}formartrio
-┊┃ ❏ ${prefix}formarpareja
-┊┃ ❏ ${prefix}txt _(texto)_
-┊┃ ❏ ${prefix}fake _(texto + tag)_
-┊┗━━━━━━━━━━━━━━•
-╰┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈⪩`
-let efecto = `╭┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈⪩
-┊┏━━━━━━━━━━━━━━•
-┊┃ *🎤 ＭＥＮＵ ＤＥ ＥＦＥＣＴＯＳ 🎤*
-┊┃━━━━━━━━━━━━━━•
-┊┃ *(𝚁𝙴𝚂𝙿𝙾𝙽𝙳𝙴 𝙰 UN 𝙰𝚄𝙳𝙸𝙾 𝙾 𝙽𝙾𝚃𝙰 𝙳𝙴 𝚅𝙾𝚉)*
-┊┃━━━━━━━━━━━━━━•
-┊┃ ❏ ${prefix}bass
-┊┃ ❏ ${prefix}blown
-┊┃ ❏ ${prefix}deep
-┊┃ ❏ ${prefix}earrape
-┊┃ ❏ ${prefix}fast
-┊┃ ❏ ${prefix}fat
-┊┃ ❏ ${prefix}nightcore
-┊┃ ❏ ${prefix}reverse
-┊┃ ❏ ${prefix}robot
-┊┃ ❏ ${prefix}slow
-┊┃ ❏ ${prefix}smooth
-┊┃ ❏ ${prefix}squirrel
-┊┗━━━━━━━━━━━━━━•
-╰┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈⪩`
-let convertidores = `╭┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈⪩
-┊┏━━━━━━━━━━━━━━•
-┊┃ *🧧ＭＥＮＵ ＣＯＮＶＥＲＴＩＤＯＲＥＳ 🧧*
-┊┃━━━━━━━━━━━━━━•
-┊┃ ❏ ${prefix}tourl
-┊┃ ❏ ${prefix}tts
-┊┃ ❏ ${prefix}tomp3
-┊┃ ❏ ${prefix}toimg
-┊┃ ❏ ${prefix}toaudio
-┊┃ ❏ ${prefix}toanime
-┊┃ ❏ ${prefix}hd
-┊┃ ❏ ${prefix}logos
-┊┗━━━━━━━━━━━━━━•
-╰┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈⪩`
-let menu18 = `╭┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈⪩
-┊┏━━━━━━━━━━━━━━•
-┊┃ *🥵 ＭＥＮＵ +18 🥵*
-┊┃━━━━━━━━━━━━━━•
-┊┃ *Nota: usarlo baja tu responsabilidad*
-┊┃ *No sea pajero*
-┊┃━━━━━━━━━━━━━━•
-┊┃ ❏ ${prefix}pussy
-┊┃ ❏ ${prefix}nsfwloli
-┊┃ ❏ ${prefix}hentai
-┊┃ ❏ ${prefix}hentai2
-┊┃ ❏ ${prefix}pack
-┊┃ ❏ ${prefix}pack2
-┊┃ ❏ ${prefix}pack3
-┊┃ ❏ ${prefix}china
-┊┃ ❏ ${prefix}videoxxx
-┊┃ ❏ ${prefix}videoxxxlesbi
-┊┃ ❏ ${prefix}pornolesbianavid
-┊┃ ❏ ${prefix}videolesbixxx
-┊┃ ❏ ${prefix}porno
-┊┃ ❏ ${prefix}lewd
-┊┃ ❏ ${prefix}feed
-┊┃ ❏ ${prefix}gasm
-┊┃ ❏ ${prefix}anal	    	
-┊┃ ❏ ${prefix}holo	    	
-┊┃ ❏ ${prefix}tits	    	
-┊┃ ❏ ${prefix}kuni
-┊┃ ❏ ${prefix}kiss
-┊┃ ❏ ${prefix}erok
-┊┃ ❏ ${prefix}smug
-┊┃ ❏ ${prefix}solog
-┊┃ ❏ ${prefix}feetg
-┊┃ ❏ ${prefix}lewdk    
-┊┃ ❏ ${prefix}femdom
-┊┃ ❏ ${prefix}cuddle
-┊┃ ❏ ${prefix}eroyuri
-┊┃ ❏ ${prefix}cum	    
-┊┃ ❏ ${prefix}blowjob
-┊┃ ❏ ${prefix}holoero
-┊┃ ❏ ${prefix}erokemo
-┊┃ ❏ ${prefix}fox_girl
-┊┃ ❏ ${prefix}futanari
-┊┃ ❏ ${prefix}wallpaper	   
-┊┗━━━━━━━━━━━━━━•
-╰┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈⪩`
-let menurandow = `╭┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈⪩
-┊┏━━━━━━━━━━━━━━•
-┊┃ *⛩️ ＭＥＮＵ ＲＡＮＤＯＭ ⛩️*
-┊┃━━━━━━━━━━━━━━•
-┊┃ ❏ ${prefix}memes
-┊┃ ❏ ${prefix}horny
-┊┃ ❏ ${prefix}simp
-┊┃ ❏ ${prefix}lolice
-┊┃ ❏ ${prefix}comentar
-┊┃ ❏ ${prefix}comment
-┊┃ ❏ ${prefix}loli
-┊┃ ❏ ${prefix}lolivid
-┊┃ ❏ ${prefix}neko
-┊┃ ❏ ${prefix}waifu	
-┊┃ ❏ ${prefix}blackpink
-┊┃ ❏ ${prefix}navidad
-┊┃ ❏ ${prefix}akira
-┊┃ ❏ ${prefix}akiyama
-┊┃ ❏ ${prefix}china
-┊┃ ❏ ${prefix}anna
-┊┃ ❏ ${prefix}asuna
-┊┃ ❏ ${prefix}ayuzawa
-┊┃ ❏ ${prefix}boruto
-┊┃ ❏ ${prefix}chiho
-┊┃ ❏ ${prefix}chitoge
-┊┃ ❏ ${prefix}deidara
-┊┃ ❏ ${prefix}erza
-┊┃ ❏ ${prefix}elaina
-┊┃ ❏ ${prefix}eba
-┊┃ ❏ ${prefix}emilia
-┊┃ ❏ ${prefix}hestia
-┊┃ ❏ ${prefix}hinata
-┊┃ ❏ ${prefix}inori
-┊┃ ❏ ${prefix}isuzu
-┊┃ ❏ ${prefix}itachi
-┊┃ ❏ ${prefix}itori
-┊┃ ❏ ${prefix}kaga
-┊┃ ❏ ${prefix}kagura
-┊┃ ❏ ${prefix}kaori
-┊┃ ❏ ${prefix}keneki
-┊┃ ❏ ${prefix}kotori
-┊┃ ❏ ${prefix}kurumi
-┊┃ ❏ ${prefix}madara
-┊┃ ❏ ${prefix}mikasa
-┊┃ ❏ ${prefix}miku
-┊┃ ❏ ${prefix}minato
-┊┃ ❏ ${prefix}naruto
-┊┃ ❏ ${prefix}nezuko
-┊┃ ❏ ${prefix}sagiri
-┊┃ ❏ ${prefix}sasuke
-┊┃ ❏ ${prefix}sakura
-┊┃ ❏ ${prefix}cosplay
-┊┗━━━━━━━━━━━━━━•
-╰┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈⪩`
-let menuRPG = `╭┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈⪩
-┊┏━━━━━━━━━━━━━━•
-┊┃ *🪙 ＭＥＮＵ ＲＰＧ / ＥＣＯＮＯＭＩＡ*
-┊┃━━━━━━━━━━━━━━•
-┊┃ ❏ ${prefix}minar _(para minar exp)_
-┊┃ ❏ ${prefix}robar
-┊┃ ❏ ${prefix}rob _(roba exp algun usuarios)_
-┊┃ ❏ ${prefix}crime
-┊┃ ❏ ${prefix}trabajar
-┊┃ ❏ ${prefix}work _(crabaja y ganas exp)_
-┊┃ ❏ ${prefix}buy _(comprar mas diamantes (limit)_
-┊┃ ❏ ${prefix}bal
-┊┃ ❏ ${prefix}balace _(diamante/exp tenés)_
-┊┃ ❏ ${prefix}claim _(recoger tu recompensa)_
-┊┃ ❏ ${prefix}lb
-┊┃ ❏ ${prefix}leaderboard
-┊┃ ❏ ${prefix}cofre
-┊┃ ❏ ${prefix}perfil
-┊┃ ❏ ${prefix}nivel
-┊┃ ❏ ${prefix}dep
-┊┃ ❏ ${prefix}depositar
-┊┃ ❏ ${prefix}retirar
-┊┃ ❏ ${prefix}toremove
-┊┃ ❏ ${prefix}levelup
-┊┃ ❏ ${prefix}transferir
-┊┃ ❏ ${prefix}transfer
-┊┃ ❏ ${prefix}afk 
-┊┗━━━━━━━━━━━━━━•
-╰┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈⪩`
-let menuSticker= `╭┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈⪩
-┊┏━━━━━━━━━━━━━━•
-┊┃ *👽 ＭＥＮＵ ＳＴＩＣＫＥＲ 👽*
-┊┃━━━━━━━━━━━━━━•
-┊┃ *(Crear sticker desde whatsapp con NovaBot)*
-┊┃━━━━━━━━━━━━━━•
-┊┃ ❏ ${prefix}s
-┊┃ ❏ ${prefix}sticker 
-┊┃ ❏ ${prefix}wm
-┊┃ ❏ ${prefix}attp
-┊┃ ❏ ${prefix}qc
-┊┃ ❏ ${prefix}emojimix
-┊┗━━━━━━━━━━━━━━•
-╰┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈⪩`
+let juegos = `
+┏━━━━━━━━━━━┓
+┣ ＪＵＥＧＯＳ ＨＹＰＥＲＸ
+┗━━━━━━━━━━━┛
+┏━━━━━━━━━━━┓
+┣ ${prefix}simi
+┣ ${prefix}ppt
+┣ ${prefix}gay
+┣ ${prefix}pareja
+┣ ${prefix}love
+┣ ${prefix}follar
+┣ ${prefix}topgays
+┣ ${prefix}topotakus
+┣ ${prefix}top
+┣ ${prefix}pregunta
+┣ ${prefix}verdad
+┣ ${prefix}reto
+┣ ${prefix}doxear
+┣ ${prefix}math
+┣ ${prefix}matematicas
+┣ ${prefix}ttt
+┣ ${prefix}tictactoe
+┣ ${prefix}ttc
+┣ ${prefix}delttt
+┣ ${prefix}personalidad
+┣ ${prefix}racista
+┣ ${prefix}slot
+┣ ${prefix}dado
+┣ ${prefix}piropo
+┣ ${prefix}ship
+┣ ${prefix}formartrio
+┣ ${prefix}formapareja5
+┣ ${prefix}txt
+┣ ${prefix}fake
+┗━━━━━━━━━━━┛`
+let efecto = `
+┏━━━━━━━━━━━┓
+┣ ＥＦＥＣＴＯＳ ＤＥ ＡＵＤＩＯ ＨＹＰＥＲＸ
+┗━━━━━━━━━━━┛
+┏━━━━━━━━━━━┓
+┣ ${prefix}bass
+┣ ${prefix}blown
+┣ ${prefix}deep
+┣ ${prefix}earrape
+┣ ${prefix}fast
+┣ ${prefix}fat
+┣ ${prefix}nightcore
+┣ ${prefix}reverse
+┣ ${prefix}robot
+┣ ${prefix}slow
+┣ ${prefix}smooth
+┣ ${prefix}squirrel
+┗━━━━━━━━━━━┛`
+let convertidores = `
+┏━━━━━━━━━━━┓
+┣ ＣＯＮＶＥＲＴＩＤＯＲＥＳ ＨＹＰＥＲＸ
+┗━━━━━━━━━━━┛
+┏━━━━━━━━━━━┓
+┣ ${prefix}tour1
+┣ ${prefix}tts
+┣ ${prefix}tomp3
+┣ ${prefix}toimg
+┣ ${prefix}toaudio
+┣ ${prefix}toanime
+┣ ${prefix}hd
+┗━━━━━━━━━━━┛`
+let menu18 = `
+┏━━━━━━━━━━━┓
+┣ ＸＸＸＸ ＨＹＰＥＲＸ
+┗━━━━━━━━━━━┛
+┏━━━━━━━━━━━┓
+┣ ${prefix}pussy
+┣ ${prefix}nsfwloli
+┣ ${prefix}hentai
+┣ ${prefix}hentai2
+┣ ${prefix}pack
+┣ ${prefix}pack2
+┣ ${prefix}pack3
+┣ ${prefix}videoxxx
+┣ ${prefix}videoxxxlesbi
+┣ ${prefix}pornolesbianavid
+┣ ${prefix}videolesbixxx
+┣ ${prefix}porno
+┣ ${prefix}lewd
+┣ ${prefix}feed
+┣ ${prefix}gasm
+┣ ${prefix}anal
+┣ ${prefix}holo
+┣ ${prefix}tits
+┣ ${prefix}kuni
+┣ ${prefix}kiss
+┣ ${prefix}erok
+┣ ${prefix}smug
+┣ ${prefix}solog
+┣ ${prefix}feetg
+┣ ${prefix}lewdk
+┣ ${prefix}fendom
+┣ ${prefix}cuddle
+┣ ${prefix}eroyuri
+┣ ${prefix}cum
+┣ ${prefix}blowjob
+┣ ${prefix}holoero
+┣ ${prefix}erokemo
+┣ ${prefix}fox_girl
+┣ ${prefix}futanari
+┣ ${prefix}wallpaper
+┗━━━━━━━━━━━┛`
+let menurandow = `
+┏━━━━━━━━━━━┓
+┣ ＲＡＮＤＯＭ ＨＹＰＥＲＸ
+┗━━━━━━━━━━━┛
+┏━━━━━━━━━━━┓
+┣ ${prefix}memes
+┣ ${prefix}horny
+┣ ${prefix}simp
+┣ ${prefix}lolice
+┣ ${prefix}comentar
+┣ ${prefix}comment
+┣ ${prefix}loli
+┣ ${prefix}lolivid
+┣ ${prefix}neko
+┣ ${prefix}waifu
+┣ ${prefix}blackpink
+┣ ${prefix}navidad
+┣ ${prefix}akira
+┣ ${prefix}akiyama
+┣ ${prefix}anna
+┣ ${prefix}asuna
+┣ ${prefix}ayuzawa
+┣ ${prefix}boruto
+┣ ${prefix}chino
+┣ ${prefix}chitoge
+┣ ${prefix}deidara
+┣ ${prefix}erza
+┣ ${prefix}elaina
+┣ ${prefix}eba
+┣ ${prefix}emilia
+┣ ${prefix}hestia
+┣ ${prefix}hinata
+┣ ${prefix}inori
+┣ ${prefix}isuzu
+┣ ${prefix}itachi
+┣ ${prefix}itori
+┣ ${prefix}kaga
+┣ ${prefix}kagura
+┣ ${prefix}kaori
+┣ ${prefix}keneki
+┣ ${prefix}kotori
+┣ ${prefix}kurumi
+┣ ${prefix}madara
+┣ ${prefix}mikasa
+┣ ${prefix}miku
+┣ ${prefix}minato
+┣ ${prefix}naruto
+┣ ${prefix}nezuko
+┣ ${prefix}sagiri
+┣ ${prefix}sasuke
+┣ ${prefix}sakura
+┣ ${prefix}cosplay
+┗━━━━━━━━━━━┛`
+let menuRPG = `
+┏━━━━━━━━━━━┓
+┣ ＥＣＯＮＯＭＩＡ ＨＹＰＥＲＸ
+┗━━━━━━━━━━━┛
+┏━━━━━━━━━━━┓
+┣ ${prefix}minar
+┣ ${prefix}robar
+┣ ${prefix}rob
+┣ ${prefix}crime
+┣ ${prefix}trabajar
+┣ ${prefix}work
+┣ ${prefix}buy
+┣ ${prefix}bal
+┣ ${prefix}balace
+┣ ${prefix}claim
+┣ ${prefix}lb
+┣ ${prefix}leaderboard
+┣ ${prefix}cofre
+┣ ${prefix}perfil
+┣ ${prefix}nivel
+┣ ${prefix}levelup
+┣ ${prefix}transferir
+┣ ${prefix}transfer
+┣ ${prefix}afk
+┗━━━━━━━━━━━┛`
+let menuSticker= `
+┏━━━━━━━━━━━┓
+┣ ＳＴＩＣＫＥＲＳ ＨＹＰＥＲＸ
+┗━━━━━━━━━━━┛
+┏━━━━━━━━━━━┓
+┣ ${prefix}s
+┣ ${prefix}sticker
+┣ ${prefix}wm
+┣ ${prefix}attp
+┣ ${prefix}qc
+┣ ${prefix}emojimix
+┗━━━━━━━━━━━┛`
 let menuOwner = `
 ┏━━━━━━━━━━━┓
 ┣ ＯＷＮＥＲ ＨＹＰＥＲＸ
