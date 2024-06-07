@@ -373,50 +373,47 @@ let menuSticker= `╭┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈⪩
 ┊┃ ❏ ${prefix}emojimix
 ┊┗━━━━━━━━━━━━━━•
 ╰┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈⪩`
-let menuOwner = `╭┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈⪩
-┊┏━━━━━━━━━━━━━━•
-┊┃ *👑 ＭＥＮＵ ＯＷＮＥＲ 👑*
-┊┃━━━━━━━━━━━━━━•
-┊┃ _(Comando exclusivo para propietario/owner del bot)_
-┊┃━━━━━━━━━━━━━━•
-┊┃ ❏ ${prefix}anticall _(on/off)_
-┊┃ ❏ ${prefix}antillamada _(on/off)_
-┊┃ ❏ ${prefix}antipv _(on/off)_
-┊┃ ❏ ${prefix}antiprivado _(on/off)_
-┊┃ ❏ ${prefix}autoread _(on/off)_
-┊┃ ❏ ${prefix}modojadibot _(on/off)_
-┊┃ ❏ ${prefix}añadirdiamantes _(@tag)_
-┊┃ ❏ ${prefix}addlimit _(@tag)_
-┊┃ ❏ ${prefix}dardiamantes _(@tag)_
-┊┃ ❏ ${prefix}añadirxp _(@tag)_
-┊┃ ❏ ${prefix}addxp _(@tag)_
-┊┃ ❏ ${prefix}banuser _(@tag)_
-┊┃ ❏ ${prefix}unbanuser _(@tag)_
-┊┃ ❏ ${prefix}autoadmin 
-┊┃ ❏ ${prefix}nuevonombre
-┊┃ ❏ ${prefix}botname _(cambiar el name del bot)_
-┊┃ ❏ ${prefix}nuevafoto
-┊┃ ❏ ${prefix}seppbot
-┊┃ ❏ ${prefix}fotobot _(cambiar la foto del bot)_
-┊┃ ❏ ${prefix}bc (difusión a todos los chat)
-┊┃ ❏ ${prefix}bcgc (difusión solo a grupos)
-┊┃ ❏ ${prefix}public (modo público) 
-┊┃ ❏ ${prefix}privado (modo privado) 
-┊┃ ❏ ${prefix}getcase
-┊┃ ❏ ${prefix}fetch
-┊┃ ❏ ${prefix}update
-┊┃ ❏ ${prefix}restart 
-┊┃ ❏ ${prefix}reiniciar
-┊┃ ❏ $ 
-┊┃ ❏ >
-┊┃ ❏ => 
-┊┗━━━━━━━━━━━━━━•
-╰┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈⪩`
+let menuOwner = `
+┏━━━━━━━━━━━┓
+┣ ＯＷＮＥＲ ＨＹＰＥＲＸ
+┗━━━━━━━━━━━┛
+┏━━━━━━━━━━━┓
+┣ ${prefix}anticall
+┣ ${prefix}antillamda
+┣ ${prefix}antipv
+┣ ${prefix}antiprivado
+┣ ${prefix}autoread
+┣ ${prefix}modojadibot
+┣ ${prefix}añadirdiamantes
+┣ ${prefix}addlimit
+┣ ${prefix}dardiamantes
+┣ ${prefix}añadirxp
+┣ ${prefix}addxp
+┣ ${prefix}banuser
+┣ ${prefix}unbanuser
+┣ ${prefix}autoadmin
+┣ ${prefix}nuevonombre
+┣ ${prefix}botname
+┣ ${prefix}nuevafoto
+┣ ${prefix}seppbot
+┣ ${prefix}fotobot
+┣ ${prefix}bc
+┣ ${prefix}fetch
+┣ ${prefix}bcgc
+┣ ${prefix}setpp
+┣ ${prefix}public
+┣ ${prefix}privado
+┣ ${prefix}getcase
+┣ ${prefix}update
+┣ ${prefix}restart
+┣ ${prefix}reiniciar
+┗━━━━━━━━━━━┛
 
 if (command == 'menu' || command == 'help') {
 m.react('💫') 
-let saludos = `*🧸❤️‍🩹𝑯𝒚𝒑𝒆𝒓𝑿 𝒕𝒆 𝒔𝒂𝒍𝒖𝒅𝒂* @${m.sender.split`@`[0]}`
+let saludos = ``
 let menu = `
+*🧸❤️‍🩹𝑯𝒚𝒑𝒆𝒓𝑿 𝒕𝒆 𝒔𝒂𝒍𝒖𝒅𝒂* @${m.sender.split`@`[0]}
 ┏━━━━━━━━━━━┓
 ┣ 🚀𝑴𝑬𝑵𝑼 𝑷𝑹𝑰𝑵𝑪𝑰𝑷𝑨𝑳 𝑫𝑬 𝑯𝒀𝑷𝑬𝑹𝑿:
 ┗━━━━━━━━━━━┛
@@ -424,28 +421,30 @@ let menu = `
 ┣ ✅𝑪𝒓𝒆𝒂𝒅𝒐𝒓 𝑯𝒚𝒑𝒆𝒓𝑿:
 ┣ +51 936732723
 ┣ ✅Para comprar el bot o para obtener informacion, porfavor comunicate con mi creador.
+┗━━━━━━━━━━━┛
+┏━━━━━━━━━━━┓
 ┣ 🚀𝑫𝑰𝑺𝑭𝑹𝑼𝑻𝑨 𝑫𝑬𝑳 𝑴𝑬𝑵𝑼 𝑪𝑶𝑴𝑷𝑳𝑬𝑻𝑶 𝑫𝑬 𝑯𝒀𝑷𝑬𝑹𝑿:
 ┗━━━━━━━━━━━┛
-${conn.user.id == global.numBot2 ? `> *👑Bot Oficial*` : `${lenguaje.menu.texttt} @${global.numBot.split`@`[0]}`}`
+${conn.user.id == global.numBot2 ? `┣ *𝑯𝒀𝑷𝑬𝑹𝑿*` : `${lenguaje.menu.texttt} @${global.numBot.split`@`[0]}`}`
 let xd = `${pickRandom([`\`¿𝐐𝐮𝐢𝐞𝐫𝐞𝐬 𝐨𝐛𝐭𝐞𝐧𝐞𝐫 𝐭𝐮 𝐛𝐨𝐭 𝐩𝐞𝐫𝐬𝐨𝐧𝐚𝐥𝐢𝐳𝐚𝐝𝐨?\`https://www.facebook.com/`, `\`□ CÓMO INSTALAR EL BOT\`\n${yt}`, `\`¿Qué hay de nuevo?\`\n• Pon : ${prefix}nuevo`, `\`💫 INFÓMARTE SOBRE LAS NUEVAS ACTUALIZACIONES, NOVEDADES DEL BOT AQUI\`\n${nna}`, `\`🌟¿Te agrada el bot? califica nuestro repositorio con una estrellita ☺\`\n${md}\``])}`
 
 let listSections = []    
 listSections.push({
 title: '',
-rows: [{ header: "𝑴𝑬𝑵𝑼 𝑪𝑶𝑴𝑷𝑳𝑬𝑻𝑶 𝑯𝒀𝑷𝑬𝑹𝑿", title: "", id: `.allmenu`, description: `Muestra el menu completo\n` }, 
-{ header: "𝑴𝑬𝑵𝑼 𝑫𝑬𝑺𝑪𝑨𝑹𝑮𝑨𝑺 𝑯𝒀𝑷𝑬𝑹𝑿", title: "", id: `.menu1`, description: `Muestra el menu de descarga\n` },
-{ header: "𝑴𝑬𝑵𝑼 𝑨𝑼𝑫𝑰𝑶𝑺 𝑯𝒀𝑷𝑬𝑹𝑿", title: "", id: `.menu2`, description: `Muestra el menu de audios palabra clave para interactuar con el bot\n` },
-{ header: "𝑴𝑬𝑵𝑼 𝑮𝑹𝑼𝑷𝑨𝑳 𝑯𝒀𝑷𝑬𝑹𝑿", title: "", id: `.menu3`, description: `Muestra el menu de gestión del Grupo\n` },
-{ header: "𝑴𝑬𝑵𝑼 𝑩𝑼𝑺𝑪𝑨𝑫𝑶𝑹𝑬𝑺 𝑯𝒀𝑷𝑬𝑹𝑿", title: "", id: `.menu4`, description: `Muestra el menu para buscar información\n` },
-{ header: "𝑴𝑬𝑵𝑼 𝑱𝑼𝑬𝑮𝑶𝑺 𝑯𝒀𝑷𝑬𝑹𝑿", title: "", id: `.menu5`, description: `Muestra el menu de juegos para divertir tu grupo con multi juegos\n` }, 
-{ header: "𝑴𝑬𝑵𝑼 𝑬𝑭𝑬𝑪𝑻𝑶𝑺 𝑯𝒀𝑷𝑬𝑹𝑿", title: "", id: `.menu6`, description: `Muestra el menu de efecto\n` }, 
-{ header: "𝑴𝑬𝑵𝑼 𝑪𝑶𝑵𝑽𝑬𝑹𝑻𝑰𝑫𝑶𝑹𝑬𝑺 𝑯𝒀𝑷𝑬𝑹𝑿", title: "", id: `.menu7`, description: `Muestra el menu de convertidores\n` }, 
-{ header: "𝑴𝑬𝑵𝑼 𝑺𝑻𝑰𝑪𝑲𝑬𝑹 𝑯𝒀𝑷𝑬𝑹𝑿", title: "", id: `.menu10`, description: `Muestra el menu de creación de sticker\n` }, 
-{ header: "𝑴𝑬𝑵𝑼 𝑶𝑾𝑵𝑬𝑹 𝑯𝒀𝑷𝑬𝑹𝑿", title: "", id: `.menu11`, description: `Muestra el menu solo para propietario del bot\n` }, 
-{ header: "𝑴𝑬𝑵𝑼 𝑿𝑿𝑿𝑿 𝑯𝒀𝑷𝑬𝑹𝑿", title: "", id: `.menu18`, description: `Muestra el menu +18 (usarlo bajo tu responsabilidad)\n` }, 
-{ header: "𝑴𝑬𝑵𝑼 𝑳𝑶𝑮𝑶𝑺 𝑯𝒀𝑷𝑬𝑹𝑿𝐒", title: "", id: `.logos`, description: `Muestra la lista para crear logos\n` }, 
-{ header: "𝑽𝑬𝑳𝑶𝑪𝑰𝑫𝑨𝑫 𝑯𝒀𝑷𝑬𝑹𝑿", title: "", id: `.status`, description: `Comprueba la velocidad del bot\n` }, 
-{ header: "𝑹𝑬𝑮𝑳𝑨𝑺 𝑯𝒀𝑷𝑬𝑹𝑿", title: "", id: `.reglas`, description: `Conecer la reglas del bot\n` }, 
+rows: [{ header: "𝑴𝑬𝑵𝑼 𝑪𝑶𝑴𝑷𝑳𝑬𝑻𝑶 𝑯𝒀𝑷𝑬𝑹𝑿", title: "", id: `.allmenu`, description: `Muestra el menu completo de 𝑯𝒀𝑷𝑬𝑹𝑿\n` }, 
+{ header: "𝑴𝑬𝑵𝑼 𝑫𝑬𝑺𝑪𝑨𝑹𝑮𝑨𝑺 𝑯𝒀𝑷𝑬𝑹𝑿", title: "", id: `.menu1`, description: `Muestra el menu de descarga 𝑯𝒀𝑷𝑬𝑹𝑿\n` },
+{ header: "𝑴𝑬𝑵𝑼 𝑨𝑼𝑫𝑰𝑶𝑺 𝑯𝒀𝑷𝑬𝑹𝑿", title: "", id: `.menu2`, description: `Muestra el menu de audios palabra clave para interactuar con el bot 𝑯𝒀𝑷𝑬𝑹𝑿\n` },
+{ header: "𝑴𝑬𝑵𝑼 𝑮𝑹𝑼𝑷𝑨𝑳 𝑯𝒀𝑷𝑬𝑹𝑿", title: "", id: `.menu3`, description: `Muestra el menu de gestión del Grupo 𝑯𝒀𝑷𝑬𝑹𝑿\n` },
+{ header: "𝑴𝑬𝑵𝑼 𝑩𝑼𝑺𝑪𝑨𝑫𝑶𝑹𝑬𝑺 𝑯𝒀𝑷𝑬𝑹𝑿", title: "", id: `.menu4`, description: `Muestra el menu para buscar información 𝑯𝒀𝑷𝑬𝑹𝑿\n` },
+{ header: "𝑴𝑬𝑵𝑼 𝑱𝑼𝑬𝑮𝑶𝑺 𝑯𝒀𝑷𝑬𝑹𝑿", title: "", id: `.menu5`, description: `Muestra el menu de juegos para divertir tu grupo con multi juegos 𝑯𝒀𝑷𝑬𝑹𝑿\n` }, 
+{ header: "𝑴𝑬𝑵𝑼 𝑬𝑭𝑬𝑪𝑻𝑶𝑺 𝑯𝒀𝑷𝑬𝑹𝑿", title: "", id: `.menu6`, description: `Muestra el menu de efecto 𝑯𝒀𝑷𝑬𝑹𝑿\n` }, 
+{ header: "𝑴𝑬𝑵𝑼 𝑪𝑶𝑵𝑽𝑬𝑹𝑻𝑰𝑫𝑶𝑹𝑬𝑺 𝑯𝒀𝑷𝑬𝑹𝑿", title: "", id: `.menu7`, description: `Muestra el menu de convertidores 𝑯𝒀𝑷𝑬𝑹𝑿\n` }, 
+{ header: "𝑴𝑬𝑵𝑼 𝑺𝑻𝑰𝑪𝑲𝑬𝑹 𝑯𝒀𝑷𝑬𝑹𝑿", title: "", id: `.menu10`, description: `Muestra el menu de creación de sticker 𝑯𝒀𝑷𝑬𝑹𝑿\n` }, 
+{ header: "𝑴𝑬𝑵𝑼 𝑶𝑾𝑵𝑬𝑹 𝑯𝒀𝑷𝑬𝑹𝑿", title: "", id: `.menu11`, description: `Muestra el menu solo para propietario del bot 𝑯𝒀𝑷𝑬𝑹𝑿\n` }, 
+{ header: "𝑴𝑬𝑵𝑼 𝑿𝑿𝑿𝑿 𝑯𝒀𝑷𝑬𝑹𝑿", title: "", id: `.menu18`, description: `Muestra el menu +18 𝑯𝒀𝑷𝑬𝑹𝑿\n` }, 
+{ header: "𝑴𝑬𝑵𝑼 𝑳𝑶𝑮𝑶𝑺 𝑯𝒀𝑷𝑬𝑹𝑿𝐒", title: "", id: `.logos`, description: `Muestra la lista para crear logos 𝑯𝒀𝑷𝑬𝑹𝑿\n` }, 
+{ header: "𝑽𝑬𝑳𝑶𝑪𝑰𝑫𝑨𝑫 𝑯𝒀𝑷𝑬𝑹𝑿", title: "", id: `.status`, description: `Comprueba la velocidad del bot 𝑯𝒀𝑷𝑬𝑹𝑿\n` }, 
+{ header: "𝑹𝑬𝑮𝑳𝑨𝑺 𝑯𝒀𝑷𝑬𝑹𝑿", title: "", id: `.reglas`, description: `Conecer la reglas del bot 𝑯𝒀𝑷𝑬𝑹𝑿\n` }, 
 ]})
 
 conn.sendList(m.chat, saludos, menu, `sᴇʟᴇᴄᴄɪᴏɴᴇs ᴀǫᴜɪ`, listSections, fkontak)
@@ -731,405 +730,405 @@ sourceUrl: `${pickRandom([nna, nn, md, yt])}`
 
 if (command == 'allmenu' || command == 'menucompleto') {
 m.react('🙌') 
-let menu = `╔══════ ≪ •❈• ≫ ══════╗
-║◤━━━━━ ☆. ∆ .☆ ━━━━━◥
-║${lenguaje['smsWel']()} ${pushname} ${user.registered === true ? 'ͧͧͧͦꙶͣͤ✓' : ''} 👋🏻
-║◤━━━━━ ☆. ∆ .☆ ━━━━━◥
-║${lenguaje.menu.text} [ ${prefix} ]
-║${lenguaje.menu.text2} ${date}
-║${lenguaje.menu.text3} ${time}
-║${lenguaje.menu.text4} ${vs}
-║${lenguaje.menu.text5} ${Object.keys(global.db.data.users).length}
-║${lenguaje.menu.text6} ${runtime(process.uptime())}
-║${lenguaje.menu.text7} ${conn.public ? 'publico' : 'privado'}
-║${conn.user.id == global.numBot2 ? `${lenguaje.menu.textt} ` : `${lenguaje.menu.texttt} wa.me/${global.numBot.split`@`[0]}`}
-║ 
-║${lenguaje.menu.text8} ${user.limit}
-║${lenguaje.menu.text9} ${user.level}
-║${lenguaje.menu.text10} ${user.role}
-║❐ ᴇxᴘ : ${user.exp}
-║❐ ᴄᴏɪɴs : ${user.money}
-║ 
-║${lenguaje.menu.text11} ${rtotalreg} de ${totalreg}
-║◤━━━━━ ☆. ∆ .☆ ━━━━━◥
-╚══════ ≪ •❈• ≫ ══════╝
+let menu = `*🧸❤️‍🩹𝑯𝒚𝒑𝒆𝒓𝑿 𝒕𝒆 𝒔𝒂𝒍𝒖𝒅𝒂* @${m.sender.split`@`[0]}
+┏━━━━━━━━━━━┓
+┣ ＭＥＮＵ ＣＯＭＰＬＥＴＯ ＨＹＰＥＲＸ
+┗━━━━━━━━━━━┛
+┏━━━━━━━━━━━┓
+┣ ✅Creador HyperX:
+┣ +51 936732723
+┣ ✅Para comprar el bot o para obtener informacion, porfavor comunicate con mi creador.
+┗━━━━━━━━━━━┛
+┏━━━━━━━━━━━┓
+┣ ＤＩＳＦＲＵＴＡ ＤＥＬ ＢＯＴ ＨＹＰＥＲＸ
+┗━━━━━━━━━━━┛
 
-===============================
-${lenguaje.menu.text12}
-===============================
+┏━━━━━━━━━━━┓
+┣ ＩＮＦＯ  ＨＹＰＥＲＸ
+┗━━━━━━━━━━━┛
+┏━━━━━━━━━━━┓
+┣ ${prefix}reg
+┣ ${prefix}unreg
+┣ ${prefix}myns
+┣ ${prefix}estado
+┣ ${prefix}audios
+┣ ${prefix}nuevo
+┣ ${prefix}reglas
+┣ ${prefix}ping
+┣ ${prefix}velocidad
+┣ ${prefix}grupos
+┣ ${prefix}joins
+┣ ${prefix}owner
+┣ ${prefix}creador
+┣ ${prefix}solicitud
+┣ ${prefix}cuenta
+┣ ${prefix}cuentasoficiales
+┣ ${prefix}status
+┣ ${prefix}infohost
+┣ ${prefix}report
+┗━━━━━━━━━━━┛
 
-*╭─╮─᤻─᳒─᤻᳒᯽⃟ᰳᰬᰶ┈*⃐ℹ️ ＩＮＦＯＢＯＴ*️⃟ᬽ፝֟━*
-├❥ᰰຼ ❏ ${prefix}reg _(Registrarte en el bot)_
-├❥ᰰຼ ❏ ${prefix}unreg _(borrar su registro)_
-├❥ᰰຼ ❏ ${prefix}myns _(numero de serie)_
-├❥ᰰຼ ❏ ${prefix}estado _(estado del bot)_
-├❥ᰰຼ ❏ ${prefix}menu2
-├❥ᰰຼ ❏ ${prefix}audios 
-├❥ᰰຼ ❏ ${prefix}nuevo _(nuevo comando)_
-├❥ᰰຼ ❏ ${prefix}reglas _(reglas)_
-├❥ᰰຼ ❏ ${prefix}ping
-├❥ᰰຼ ❏ ${prefix}velocidad
-├❥ᰰຼ ❏ ${prefix}grupos _(grupos oficiales)_
-├❥ᰰຼ ❏ ${prefix}join _(solicita un bot para tu grupo)_
-├❥ᰰຼ ❏ ${prefix}owner
-├❥ᰰຼ ❏ ${prefix}creador _(contactos de mi creador)_
-├❥ᰰຼ ❏ ${prefix}instalarbot (Tutorial del instalacion)_
-├❥ᰰຼ ❏ ${prefix}solicitud
-├❥ᰰຼ ❏ ${prefix}cuenta 
-├❥ᰰຼ ❏ ${prefix}cuentaoficiales
-├❥ᰰຼ ❏ ${prefix}status 
-├❥ᰰຼ ❏ ${prefix}infohost
-├❥ᰰຼ ❏ ${prefix}host
-├❥ᰰຼ ❏ ${prefix}cafirexos
-├❥ᰰຼ ❏ ${prefix}report _(reporta errores)_
-╰┄̸࣭࣭࣭࣭࣭ٜ۫┄࣭࣭࣭۫┄̸࣭۫┄̸࣭࣭࣭࣭࣭ٜ۫┄࣭࣭࣭۫┄̸࣭۫┄̸࣭࣭࣭࣭࣭ٜ۫┄̸࣭࣭࣭࣭࣭ٜ۫┄࣭۫
+┏━━━━━━━━━━━┓
+┣ ＪＡＤＩ ＨＹＰＥＲＸ
+┗━━━━━━━━━━━┛
+┏━━━━━━━━━━━┓
+┣ ＥＳＣＡＮＥＡＲ ＱＲ
+┣ ${prefix}serbot
+┣ ${prefix}qr
+┣ ＣＯＤＩＧＯ ＤＥ ８ ＤＩＧＩＴＯＳ
+┣ ${prefix}serbot
+┣ ${prefix}jadibot
+┣ ＳＵＢ ＢＯＴＳ ＨＹＰＥＲＸ
+┣ ${prefix}bots
+┣ ＣＯＭＡＮＤＯ ＳＯＬＯ ＰＡＲＡ ＬＯＳ ＳＵＢ ＢＯＴＳ ＤＥ ＨＹＰＥＲＸ
+┣ ${prefix}stop
+┣ ${prefix}deljadibot
+┗━━━━━━━━━━━┛
 
-*╭─╮─᤻─᳒─᤻᳒᯽⃟ᰳᰬᰶ┈*⃐🤖ＪＡＤＩＢＯＴ*️⃟ᬽ፝֟━*
-├• *(Tiene 2 opciónes para hacerte SubBot)*
-├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
-├• *Escaneado el QR*
-├❥ᰰຼ ❏ ${prefix}serbot
-├❥ᰰຼ ❏ ${prefix}qr
-├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
-├• *Con codigo de 8 digitos*
-├❥ᰰ ❏ ${prefix}serbot --code
-├❥ᰰຼ ❏ ${prefix}jadibot --code
-├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
-├• *(Comprueba si hay sub bot conectado)*
-├❥ᰰຼ ❏ ${prefix}bots 
-├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
-├• *(Comando solo para los sub bot)*
-├❥ᰰຼ ❏ ${prefix}stop
-├❥ᰰຼ ❏ ${prefix}deljadibot
-╰┄̸࣭࣭࣭࣭࣭ٜ۫┄࣭࣭࣭۫┄̸࣭۫┄̸࣭࣭࣭࣭࣭ٜ۫┄࣭࣭࣭۫┄̸࣭۫┄̸࣭࣭࣭࣭࣭ٜ۫┄̸࣭࣭࣭࣭࣭ٜ۫┄࣭۫
+┏━━━━━━━━━━━┓
+┣ ＤＥＳＣＡＲＧＡＳ ＨＹＰＥＲＸ
+┗━━━━━━━━━━━┛
+┏━━━━━━━━━━━┓
+┣ ${prefix}play
+┣ ${prefix}play2
+┣ ${prefix}play.1
+┣ ${prefix}play.2
+┣ ${prefix}play3
+┣ ${prefix}play4
+┣ ${prefix}musica
+┣ ${prefix}video
+┣ ${prefix}playdoc
+┣ ${prefix}yts
+┣ ${prefix}ytmp3
+┣ ${prefix}ytmp4
+┣ ${prefix}spotify
+┣ ${prefix}music
+┣ ${prefix}tiktok
+┣ ${prefix}tiktokimg
+┣ ${prefix}ttimg
+┣ ${prefix}igstalk
+┣ ${prefix}facebook
+┣ ${prefix}fb
+┣ ${prefix}instagram
+┣ ${prefix}ig
+┣ ${prefix}mediafire
+┣ ${prefix}gdrive
+┗━━━━━━━━━━━┛
 
-*╭─╮─᤻─᳒─᤻᳒᯽⃟ᰳᰬᰶ┈*⃐🔄ＤＥＳＣＡＲＧＡ*️⃟ᬽ፝֟━*
-├❥ᰰຼ ❏ ${prefix}play _(descargar música)_
-├❥ᰰຼ ❏ ${prefix}play2 _(Descargar video)_
-├❥ᰰຼ ❏ ${prefix}play.1 _(descargar música)_
-├❥ᰰຼ ❏ ${prefix}play.2 _(descargar video)_
-├❥ᰰຼ ❏ ${prefix}musica
-├❥ᰰຼ ❏ ${prefix}video
-├❥ᰰຼ ❏ ${prefix}playdoc
-├❥ᰰຼ ❏ ${prefix}play3 _(Descarga audio en documento)_
-├❥ᰰຼ ❏ ${prefix}play4 _(Descarga video en documento)_
-├❥ᰰຼ ❏ ${prefix}yts _(Buscador de youtube)_
-├❥ᰰຼ ❏ ${prefix}ytmp3 _(link para descargar el audio)_
-├❥ᰰຼ ❏ ${prefix}ytmp4 _(link para descargar el video)_
-├❥ᰰຼ ❏ ${prefix}spotify
-├❥ᰰຼ ❏ ${prefix}music _(Descarga musica de Spotify)_
-├❥ᰰຼ ❏ ${prefix}gitclone _(descarga repositorio de GitHub)_
-├❥ᰰຼ ❏ ${prefix}tiktok _(descargar video de tiktok)_
-├❥ᰰຼ ❏ ${prefix}tiktokimg
-├❥ᰰຼ ❏ ${prefix}ttimg _(descarga imagen de tiktok)_
-├❥ᰰຼ ❏ ${prefix}igstalk _(nombre de un usuario de ig)_
-├❥ᰰຼ ❏ ${prefix}facebook
-├❥ᰰຼ ❏ ${prefix}fb _(Descarga videos de Facebook)_
-├❥ᰰຼ ❏ ${prefix}instagram
-├❥ᰰຼ ❏ ${prefix}ig _(Descarga videos de Instagram)_
-├❥ᰰຼ ❏ ${prefix}mediafire _(descarga archivo de mediafire)_
-├❥ᰰຼ ❏ ${prefix}gdrive _(Descarga archivos de gdrive)_
-*╰┄̸࣭࣭࣭࣭࣭ٜ۫┄࣭࣭࣭۫┄̸࣭۫┄̸࣭࣭࣭࣭࣭ٜ۫┄࣭࣭࣭۫┄̸࣭۫┄̸࣭࣭࣭࣭࣭ٜ۫┄̸࣭࣭࣭࣭࣭ٜ۫┄࣭۫*
+┏━━━━━━━━━━━┓
+┣ ＧＲＵＰＡＬＥＳ ＨＹＰＥＲＸ
+┗━━━━━━━━━━━┛
+┏━━━━━━━━━━━┓
+┣ ${prefix}welcome
+┣ ${prefix}antilink
+┣ ${prefix}antilink2
+┣ ${prefix}antifake
+┣ ${prefix}antiarabe
+┣ ${prefix}antitoxic
+┣ ${prefix}antienlace
+┣ ${prefix}antiTwiter
+┣ ${prefix}antitiktok
+┣ ${prefix}antiTiktok
+┣ ${prefix}antitelegram
+┣ ${prefix}antiTelegram
+┣ ${prefix}antifacebook
+┣ ${prefix}antifb
+┣ ${prefix}antiFacebook
+┣ ${prefix}antInstagram
+┣ ${prefix}antiIg
+┣ ${prefix}antiyoutube
+┣ ${prefix}antiYoutube
+┣ ${prefix}autosticker
+┣ ${prefix}detect
+┣ ${prefix}autodetect
+┣ ${prefix}antinsfw
+┣ ${prefix}modocaliente
+┣ ${prefix}autosticker
+┣ ${prefix}modoadmin
+┣ ${prefix}audios
+┣ ${prefix}chatbot
+┣ ${prefix}autolevelup
+┣ ${prefix}autonivel
+┣ ${prefix}kick
+┣ ${prefix}add
+┣ ${prefix}invita
+┣ ${prefix}promote
+┣ ${prefix}demote
+┣ ${prefix}infogrupo
+┣ ${prefix}groupinfo
+┣ ${prefix}admins
+┣ ${prefix}grupo
+┣ ${prefix}warn
+┣ ${prefix}advertencia
+┣ ${prefix}unwarn
+┣ ${prefix}quitaradvertencia
+┣ ${prefix}setppname
+┣ ${prefix}setdesc
+┣ ${prefix}setppgroup
+┣ ${prefix}anularlink
+┣ ${prefix}resetlink
+┣ ${prefix}hidetag
+┣ ${prefix}tagall
+┣ ${prefix}invocar
+┣ ${prefix}listonline
+┗━━━━━━━━━━━┛
 
-*╭─╮─᤻─᳒─᤻᳒᯽⃟ᰳᰬᰶ┈*🔰⃐ＧＲＵＰＯＳ*️⃟ᬽ፝֟━*
-├• Gestionar tu grupo con NovaBot
-├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
-├❥ᰰຼ ❏ ${prefix}welcome _(on/off)_
-├❥ᰰຼ ❏ ${prefix}antilink _(on/off)_
-├❥ᰰຼ ❏ ${prefix}antienlace _(on/off)_
-├❥ᰰຼ ❏ ${prefix}antifake _(on/off)_
-├❥ᰰຼ ❏ ${prefix}antiarabe _(on/off)_
-├❥ᰰຼ ❏ ${prefix}antitoxic _(on/off)_
-├❥ᰰຼ ❏ ${prefix}antilink2 _(on/off)_
-├❥ᰰຼ ❏ ${prefix}AntiTwiter _(on/off)_
-├❥ᰰຼ ❏ ${prefix}antitiktok _(on/off)_
-├❥ᰰຼ ❏ ${prefix}AntiTikTok _(on/off)_
-├❥ᰰຼ ❏ ${prefix}antitelegram _(on/off)_
-├❥ᰰຼ ❏ ${prefix}AntiTelegram _(on/off)_
-├❥ᰰຼ ❏ ${prefix}antifacebook _(on/off)_
-├❥ᰰຼ ❏ ${prefix}AntiFb _(on/off)_
-├❥ᰰຼ ❏ ${prefix}AntiFaceBook _(on/off)_
-├❥ᰰຼ ❏ ${prefix}AntInstagram _(on/off)_
-├❥ᰰຼ ❏ ${prefix}AntiIg _(on/off)_
-├❥ᰰຼ ❏ ${prefix}antiyoutube _(on/off)_
-├❥ᰰຼ ❏ ${prefix}AntiYoutube _(on/off)_
-├❥ᰰຼ ❏ ${prefix}autosticker _(on/off)_
-├❥ᰰຼ ❏ ${prefix}detect _(on/off)_
-├❥ᰰຼ ❏ ${prefix}autodetect _(on/off)_
-├❥ᰰຼ ❏ ${prefix}antinsfw _(on/off)_
-├❥ᰰຼ ❏ ${prefix}modocaliente _(on/off)_
-├❥ᰰຼ ❏ ${prefix}autosticker _(on/off)_
-├❥ᰰຼ ❏ ${prefix}modoadmin _(on/off)_
-├❥ᰰຼ ❏ ${prefix}audios _(on/off)_
-├❥ᰰຼ ❏ ${prefix}chatbot _(on/off)_
-├❥ᰰຼ ❏ ${prefix}autolevelup _(on/off)_
-├❥ᰰຼ ❏ ${prefix}autonivel _(on/off)_
-├❥ᰰຼ ❏ ${prefix}kick _(@tag)_
-├❥ᰰຼ ❏ ${prefix}add _(@tag)_
-├❥ᰰຼ ❏ ${prefix}invita _(@tag)_
-├❥ᰰຼ ❏ ${prefix}promote _(@tag)_
-├❥ᰰຼ ❏ ${prefix}demote _(@tag)_
-├❥ᰰຼ ❏ ${prefix}infogrupo
-├❥ᰰຼ ❏ ${prefix}groupinfo
-├❥ᰰຼ ❏ ${prefix}admins _(llama a los admins)_
-├❥ᰰຼ ❏ ${prefix}grupo close/open 
-├❥ᰰຼ ❏ ${prefix}warn _(@tag)_
-├❥ᰰຼ ❏ ${prefix}advertencia _(@tag)_
-├❥ᰰຼ ❏ ${prefix}unwarn _(@tag)_
-├❥ᰰຼ ❏ ${prefix}quitardvertencia _(@tag)_
-├❥ᰰຼ ❏ ${prefix}setppname _(cambia el nombre del grupo)_
-├❥ᰰຼ ❏ ${prefix}setdesc _(cambia la desc del Grupo)_
-├❥ᰰຼ ❏ ${prefix}setppgroup _(cambia la foto del Grupo)_
-├❥ᰰຼ ❏ ${prefix}anularlink 
-├❥ᰰຼ ❏ ${prefix}resetlink _(restablece el link del grupo)_
-├❥ᰰຼ ❏ ${prefix}hidetag _(etiqueta a todos el un mensaje)_
-├❥ᰰຼ ❏ ${prefix}tagall 
-├❥ᰰຼ ❏ ${prefix}invocar _(etiqueta a todos el una listas)_
-├❥ᰰຼ ❏ ${prefix}listonline _(usuarios que esta online)_
-*╰┄̸࣭࣭࣭࣭࣭ٜ۫┄࣭࣭࣭۫┄̸࣭۫┄̸࣭࣭࣭࣭࣭ٜ۫┄࣭࣭࣭۫┄̸࣭۫┄̸࣭࣭࣭࣭࣭ٜ۫┄̸࣭࣭࣭࣭࣭ٜ۫┄࣭۫*
+┏━━━━━━━━━━━┓
+┣ ＢＵＳＣＡＤＯＲＥＳ ＨＹＰＥＲＸ
+┗━━━━━━━━━━━┛
+┏━━━━━━━━━━━┓
+┣ ${prefix}google
+┣ ${prefix}chatgpt
+┣ ${prefix}ia
+┣ ${prefix}ia2
+┣ ${prefix}imagen
+┣ ${prefix}traducir
+┣ ${prefix}wallpaper
+┣ ${prefix}ss
+┣ ${prefix}dall-e
+┣ ${prefix}bard
+┣ ${prefix}horario
+┗━━━━━━━━━━━┛
 
-*╭─╮─᤻─᳒─᤻᳒᯽⃟ᰳᰬᰶ┈*🔎⃐ＢＵＳＣＡＤＯＲＥＳ*️⃟ᬽ፝֟━*
-├❥ᰰຼ ❏ ${prefix}google _(buscar información con google)_
-├❥ᰰຼ ❏ ${prefix}chatgpt
-├❥ᰰຼ ❏ ${prefix}ia _(buscar información con la IA)_
-├❥ᰰຼ ❏ ${prefix}bard _(buscar información)_
-├❥ᰰຼ ❏ ${prefix}imagen _(Imagen en google)_
-├❥ᰰຼ ❏ ${prefix}traducir _(Traducir algun texto)_
-├❥ᰰຼ ❏ ${prefix}wallpaper _(imagen del wallpaper)_
-├❥ᰰຼ ❏ ${prefix}ss _(link)_
-├❥ᰰຼ ❏ ${prefix}dall-e
-├❥ᰰຼ ❏ ${prefix}ia2 _(Crear imagen con la (IA)_
-├❥ᰰຼ ❏ ${prefix}horario
-*╰┄̸࣭࣭࣭࣭࣭ٜ۫┄࣭࣭࣭۫┄̸࣭۫┄̸࣭࣭࣭࣭࣭ٜ۫┄࣭࣭࣭۫┄̸࣭۫┄̸࣭࣭࣭࣭࣭ٜ۫┄̸࣭࣭࣭࣭࣭ٜ۫┄࣭۫*
+┏━━━━━━━━━━━┓
+┣ ＪＵＥＧＯＳ ＨＹＰＥＲＸ
+┗━━━━━━━━━━━┛
+┏━━━━━━━━━━━┓
+┣ ${prefix}simi
+┣ ${prefix}ppt
+┣ ${prefix}gay
+┣ ${prefix}pareja
+┣ ${prefix}love
+┣ ${prefix}follar
+┣ ${prefix}topgays
+┣ ${prefix}topotakus
+┣ ${prefix}top
+┣ ${prefix}pregunta
+┣ ${prefix}verdad
+┣ ${prefix}reto
+┣ ${prefix}doxear
+┣ ${prefix}math
+┣ ${prefix}matematicas
+┣ ${prefix}ttt
+┣ ${prefix}tictactoe
+┣ ${prefix}ttc
+┣ ${prefix}delttt
+┣ ${prefix}personalidad
+┣ ${prefix}racista
+┣ ${prefix}slot
+┣ ${prefix}dado
+┣ ${prefix}piropo
+┣ ${prefix}ship
+┣ ${prefix}formartrio
+┣ ${prefix}formapareja5
+┣ ${prefix}txt
+┣ ${prefix}fake
+┗━━━━━━━━━━━┛
 
-*╭─╮─᤻─᳒─᤻᳒᯽⃟ᰳᰬᰶ┈*⃐👾ＪＵＥＧＯＳ*️⃟ᬽ፝֟━*
-├❥ᰰຼ ❏ ${prefix}simi _(hablar con el bot)_
-├❥ᰰຼ ❏ ${prefix}ppt _(piedra, papel, o tijera)_
-├❥ᰰຼ ❏ ${prefix}gay @tag
-├❥ᰰຼ ❏ ${prefix}pareja @tag
-├❥ᰰຼ ❏ ${prefix}love @tag
-├❥ᰰຼ ❏ ${prefix}follar @tag
-├❥ᰰຼ ❏ ${prefix}topgays
-├❥ᰰຼ ❏ ${prefix}topotakus
-├❥ᰰຼ ❏ ${prefix}top
-├❥ᰰຼ ❏ ${prefix}pregunta
-├❥ᰰຼ ❏ ${prefix}verdad
-├❥ᰰຼ ❏ ${prefix}reto
-├❥ᰰຼ ❏ ${prefix}doxear
-├❥ᰰຼ ❏ ${prefix}math
-├❥ᰰຼ ❏ ${prefix}matematicas
-├❥ᰰຼ ❏ ${prefix}ttt
-├❥ᰰຼ ❏ ${prefix}tictactoe
-├❥ᰰຼ ❏ ${prefix}ttc
-├❥ᰰຼ ❏ ${prefix}delttt
-├❥ᰰຼ ❏ ${prefix}personalidad
-├❥ᰰຼ ❏ ${prefix}racista
-├❥ᰰຼ ❏ ${prefix}slot
-├❥ᰰຼ ❏ ${prefix}dado
-├❥ᰰຼ ❏ ${prefix}piropo
-├❥ᰰຼ ❏ ${prefix}ship
-├❥ᰰຼ ❏ ${prefix}formartrio
-├❥ᰰຼ ❏ ${prefix}formapareja5
-┊┃ ❏ ${prefix}txt _(texto)_
-├❥ᰰຼ ❏ ${prefix}fake _(texto + tag)_
-*╰┄̸࣭࣭࣭࣭࣭ٜ۫┄࣭࣭࣭۫┄̸࣭۫┄̸࣭࣭࣭࣭࣭ٜ۫┄࣭࣭࣭۫┄̸࣭۫┄̸࣭࣭࣭࣭࣭ٜ۫┄̸࣭࣭࣭࣭࣭ٜ۫┄࣭۫*
+┏━━━━━━━━━━━┓
+┣ ＥＦＥＣＴＯＳ ＤＥ ＡＵＤＩＯ ＨＹＰＥＲＸ
+┗━━━━━━━━━━━┛
+┏━━━━━━━━━━━┓
+┣ ${prefix}bass
+┣ ${prefix}blown
+┣ ${prefix}deep
+┣ ${prefix}earrape
+┣ ${prefix}fast
+┣ ${prefix}fat
+┣ ${prefix}nightcore
+┣ ${prefix}reverse
+┣ ${prefix}robot
+┣ ${prefix}slow
+┣ ${prefix}smooth
+┣ ${prefix}squirrel
+┗━━━━━━━━━━━┛
 
-*╭─╮─᤻─᳒─᤻᳒᯽⃟ᰳᰬᰶ┈*🎤 EFECTOS DE AUDIOS*️⃟ᬽ፝֟━*
-├❥ᰰຼ *(𝚁𝙴𝚂𝙿𝙾𝙽𝙳𝙴 𝙰 𝙰𝚄𝙳𝙸𝙾 𝙾 𝙽𝙾𝚃𝙰 𝙳𝙴 𝚅𝙾𝚉)*
-├ *✧･ﾟ: *✧･ﾟ:*✧･ﾟ: *✧･ﾟ:*✧･ﾟ: *✧･ﾟ:
-├❥ᰰຼ ❏ ${prefix}bass
-├❥ᰰຼ ❏ ${prefix}blown
-├❥ᰰຼ ❏ ${prefix}deep
-├❥ᰰຼ ❏ ${prefix}earrape
-├❥ᰰຼ ❏ ${prefix}fast
-├❥ᰰຼ ❏ ${prefix}fat
-├❥ᰰຼ ❏ ${prefix}nightcore
-├❥ᰰຼ ❏ ${prefix}reverse
-├❥ᰰຼ ❏ ${prefix}robot
-├❥ᰰຼ ❏ ${prefix}slow
-├❥ᰰຼ ❏ ${prefix}smooth
-├❥ᰰຼ ❏ ${prefix}squirrel
-*╰┄̸࣭࣭࣭࣭࣭ٜ۫┄࣭࣭࣭۫┄̸࣭۫┄̸࣭࣭࣭࣭࣭ٜ۫┄࣭࣭࣭۫┄̸࣭۫┄̸࣭࣭࣭࣭࣭ٜ۫┄̸࣭࣭࣭࣭࣭ٜ۫┄࣭۫*
+┏━━━━━━━━━━━┓
+┣ ＣＯＮＶＥＲＴＩＤＯＲＥＳ ＨＹＰＥＲＸ
+┗━━━━━━━━━━━┛
+┏━━━━━━━━━━━┓
+┣ ${prefix}tour1
+┣ ${prefix}tts
+┣ ${prefix}tomp3
+┣ ${prefix}toimg
+┣ ${prefix}toaudio
+┣ ${prefix}toanime
+┣ ${prefix}hd
+┗━━━━━━━━━━━┛
 
-*╭─╮─᤻─᳒─᤻᳒᯽⃟ᰳᰬᰶ┈*⃐🧧CONVERTIDORES*️⃟ᬽ፝֟━*
-├❥ᰰຼ ❏ ${prefix}tourl
-├❥ᰰຼ ❏ ${prefix}tts
-├❥ᰰຼ ❏ ${prefix}tomp3
-├❥ᰰຼ ❏ ${prefix}toimg
-├❥ᰰຼ ❏ ${prefix}toaudio
-├❥ᰰຼ ❏ ${prefix}toanime
-├❥ᰰຼ ❏ ${prefix}hd
-*╰┄̸࣭࣭࣭࣭࣭ٜ۫┄࣭࣭࣭۫┄̸࣭۫┄̸࣭࣭࣭࣭࣭ٜ۫┄࣭࣭࣭۫┄̸࣭۫┄̸࣭࣭࣭࣭࣭ٜ۫┄̸࣭࣭࣭࣭࣭ٜ۫┄࣭۫* 	
+┏━━━━━━━━━━━┓
+┣ ＸＸＸＸ ＨＹＰＥＲＸ
+┗━━━━━━━━━━━┛
+┏━━━━━━━━━━━┓
+┣ ${prefix}pussy
+┣ ${prefix}nsfwloli
+┣ ${prefix}hentai
+┣ ${prefix}hentai2
+┣ ${prefix}pack
+┣ ${prefix}pack2
+┣ ${prefix}pack3
+┣ ${prefix}videoxxx
+┣ ${prefix}videoxxxlesbi
+┣ ${prefix}pornolesbianavid
+┣ ${prefix}videolesbixxx
+┣ ${prefix}porno
+┣ ${prefix}lewd
+┣ ${prefix}feed
+┣ ${prefix}gasm
+┣ ${prefix}anal
+┣ ${prefix}holo
+┣ ${prefix}tits
+┣ ${prefix}kuni
+┣ ${prefix}kiss
+┣ ${prefix}erok
+┣ ${prefix}smug
+┣ ${prefix}solog
+┣ ${prefix}feetg
+┣ ${prefix}lewdk
+┣ ${prefix}fendom
+┣ ${prefix}cuddle
+┣ ${prefix}eroyuri
+┣ ${prefix}cum
+┣ ${prefix}blowjob
+┣ ${prefix}holoero
+┣ ${prefix}erokemo
+┣ ${prefix}fox_girl
+┣ ${prefix}futanari
+┣ ${prefix}wallpaper
+┗━━━━━━━━━━━┛
 
-*╭─╮─᤻─᳒─᤻᳒᯽⃟ᰳᰬᰶ┈*⃐🥵COMANDO +18*️⃟ᬽ፝֟━*
-├❥ᰰຼ  *Activa con (antiNsfw on)*
-├ *✧･ﾟ: *✧･ﾟ:*✧･ﾟ: *✧･ﾟ:*✧･ﾟ: *✧･ﾟ:
-├❥ᰰຼ ❏ ${prefix}pussy
-├❥ᰰຼ ❏ ${prefix}nsfwloli
-├❥ᰰຼ ❏ ${prefix}hentai
-├❥ᰰຼ ❏ ${prefix}hentai2
-├❥ᰰຼ ❏ ${prefix}pack
-├❥ᰰຼ ❏ ${prefix}pack2
-├❥ᰰຼ ❏ ${prefix}pack3
-├❥ᰰຼ ❏ ${prefix}videoxxx
-├❥ᰰຼ ❏ ${prefix}videoxxxlesbi
-├❥ᰰຼ ❏ ${prefix}pornolesbianavid
-├❥ᰰຼ ❏ ${prefix}videolesbixxx
-├❥ᰰຼ ❏ ${prefix}porno
-├❥ᰰຼ ❏ ${prefix}lewd
-├❥ᰰຼ ❏ ${prefix}feed
-├❥ᰰຼ ❏ ${prefix}gasm
-├❥ᰰຼ ❏ ${prefix}anal	    	
-├❥ᰰຼ ❏ ${prefix}holo	    	
-├❥ᰰຼ ❏ ${prefix}tits	    	
-├❥ᰰຼ ❏ ${prefix}kuni
-├❥ᰰຼ ❏ ${prefix}kiss
-├❥ᰰຼ ❏ ${prefix}erok
-├❥ᰰຼ ❏ ${prefix}smug
-├❥ᰰຼ ❏ ${prefix}solog
-├❥ᰰຼ ❏ ${prefix}feetg
-├❥ᰰຼ ❏ ${prefix}lewdk    
-├❥ᰰຼ ❏ ${prefix}femdom
-├❥ᰰຼ ❏ ${prefix}cuddle
-├❥ᰰຼ ❏ ${prefix}eroyuri
-├❥ᰰຼ ❏ ${prefix}cum	    
-├❥ᰰຼ ❏ ${prefix}blowjob
-├❥ᰰຼ ❏ ${prefix}holoero
-├❥ᰰຼ ❏ ${prefix}erokemo
-├❥ᰰຼ ❏ ${prefix}fox_girl
-├❥ᰰຼ ❏ ${prefix}futanari
-├❥ᰰຼ ❏ ${prefix}wallpaper	   
-├❥ᰰຼ *Nota: usarlo baja tu responsabilidad*
-*╰┄̸࣭࣭࣭࣭࣭ٜ۫┄࣭࣭࣭۫┄̸࣭۫┄̸࣭࣭࣭࣭࣭ٜ۫┄࣭࣭࣭۫┄̸࣭۫┄̸࣭࣭࣭࣭࣭ٜ۫┄̸࣭࣭࣭࣭࣭ٜ۫┄࣭۫* 	
-	
-╭─╮─᤻─᳒─᤻᳒᯽⃟ᰳᰬᰶ┈*⛩️ ⃐RANDOW*️⃟ᬽ፝֟━*
-├❥ᰰຼ ❏ ${prefix}memes
-├❥ᰰຼ ❏ ${prefix}horny
-├❥ᰰຼ ❏ ${prefix}simp
-├❥ᰰຼ ❏ ${prefix}lolice
-├❥ᰰຼ ❏ ${prefix}comentar
-├❥ᰰຼ ❏ ${prefix}comment
-├❥ᰰຼ ❏ ${prefix}loli
-├❥ᰰຼ ❏ ${prefix}lolivid
-├❥ᰰຼ ❏ ${prefix}neko
-├❥ᰰຼ ❏ ${prefix}waifu	
-├❥ᰰຼ ❏ ${prefix}blackpink
-├❥ᰰຼ ❏ ${prefix}navidad
-├❥ᰰຼ ❏ ${prefix}akira
-├❥ᰰຼ ❏ ${prefix}akiyama
-├❥ᰰຼ ❏ ${prefix}anna
-├❥ᰰຼ ❏ ${prefix}asuna
-├❥ᰰຼ ❏ ${prefix}ayuzawa
-├❥ᰰຼ ❏ ${prefix}boruto
-├❥ᰰຼ ❏ ${prefix}chiho
-├❥ᰰຼ ❏ ${prefix}chitoge
-├❥ᰰຼ ❏ ${prefix}deidara
-├❥ᰰຼ ❏ ${prefix}erza
-├❥ᰰຼ ❏ ${prefix}elaina
-├❥ᰰຼ ❏ ${prefix}eba
-├❥ᰰຼ ❏ ${prefix}emilia
-├❥ᰰຼ ❏ ${prefix}hestia
-├❥ᰰຼ ❏ ${prefix}hinata
-├❥ᰰຼ ❏ ${prefix}inori
-├❥ᰰຼ ❏ ${prefix}isuzu
-├❥ᰰຼ ❏ ${prefix}itachi
-├❥ᰰຼ ❏ ${prefix}itori
-├❥ᰰຼ ❏ ${prefix}kaga
-├❥ᰰຼ ❏ ${prefix}kagura
-├❥ᰰຼ ❏ ${prefix}kaori':
-├❥ᰰຼ ❏ ${prefix}keneki
-├❥ᰰຼ ❏ ${prefix}kotori
-├❥ᰰຼ ❏ ${prefix}kurumi
-├❥ᰰຼ ❏ ${prefix}madara
-├❥ᰰຼ ❏ ${prefix}mikasa
-├❥ᰰຼ ❏ ${prefix}miku
-├❥ᰰຼ ❏ ${prefix}minato
-├❥ᰰຼ ❏ ${prefix}naruto
-├❥ᰰຼ ❏ ${prefix}nezuko
-├❥ᰰຼ ❏ ${prefix}sagiri
-├❥ᰰຼ ❏ ${prefix}sasuke
-├❥ᰰຼ ❏ ${prefix}sakura
-├❥ᰰຼ ❏ ${prefix}'cosplay
-*╰┄̸࣭࣭࣭࣭࣭ٜ۫┄࣭࣭࣭۫┄̸࣭۫┄̸࣭࣭࣭࣭࣭ٜ۫┄࣭࣭࣭۫┄̸࣭۫┄̸࣭࣭࣭࣭࣭ٜ۫┄̸࣭࣭࣭࣭࣭ٜ۫┄࣭۫*
-             
-*╭─╮─᤻─᳒─᤻᳒᯽⃟ᰳᰬᰶ┈*⃐🪙 ＥＣＯＮＯＭＩＡ*️⃟ᬽ፝֟━*
-├❥ᰰຼ ❏ ${prefix}minar _(Para minar exp)_
-├❥ᰰຼ ❏ ${prefix}robar
-├❥ᰰຼ ❏ ${prefix}rob _(Roba exp algun usuarios)_
-├❥ᰰຼ ❏ ${prefix}crime
-├❥ᰰຼ ❏ ${prefix}trabajar
-├❥ᰰຼ ❏ ${prefix}work _(Trabaja y ganas exp)_
-├❥ᰰຼ ❏ ${prefix}buy _(Comprar mas diamantes (limit)_
-├❥ᰰຼ ❏ ${prefix}bal
-├❥ᰰຼ ❏ ${prefix}balace _(diamante/exp tenés)_
-├❥ᰰຼ ❏ ${prefix}claim
-├❥ᰰຼ _(Recoger tu recompensa)_
-├❥ᰰຼ ❏ ${prefix}lb
-├❥ᰰຼ ❏ ${prefix}leaderboard
-├❥ᰰຼ ❏ ${prefix}cofre
-├❥ᰰຼ ❏ ${prefix}perfil
-├❥ᰰຼ ❏ ${prefix}nivel
-├❥ᰰຼ ❏ ${prefix}levelup
-├❥ᰰຼ ❏ ${prefix}transferir
-├❥ᰰຼ ❏ ${prefix}transfer
-├❥ᰰຼ ❏ ${prefix}afk 
-*╰┄̸࣭࣭࣭࣭࣭ٜ۫┄࣭࣭࣭۫┄̸࣭۫┄̸࣭࣭࣭࣭࣭ٜ۫┄࣭࣭࣭۫┄̸࣭۫┄̸࣭࣭࣭࣭࣭ٜ۫┄̸࣭࣭࣭࣭࣭ٜ۫┄࣭۫*
+┏━━━━━━━━━━━┓
+┣ ＲＡＮＤＯＭ ＨＹＰＥＲＸ
+┗━━━━━━━━━━━┛
+┏━━━━━━━━━━━┓
+┣ ${prefix}memes
+┣ ${prefix}horny
+┣ ${prefix}simp
+┣ ${prefix}lolice
+┣ ${prefix}comentar
+┣ ${prefix}comment
+┣ ${prefix}loli
+┣ ${prefix}lolivid
+┣ ${prefix}neko
+┣ ${prefix}waifu
+┣ ${prefix}blackpink
+┣ ${prefix}navidad
+┣ ${prefix}akira
+┣ ${prefix}akiyama
+┣ ${prefix}anna
+┣ ${prefix}asuna
+┣ ${prefix}ayuzawa
+┣ ${prefix}boruto
+┣ ${prefix}chino
+┣ ${prefix}chitoge
+┣ ${prefix}deidara
+┣ ${prefix}erza
+┣ ${prefix}elaina
+┣ ${prefix}eba
+┣ ${prefix}emilia
+┣ ${prefix}hestia
+┣ ${prefix}hinata
+┣ ${prefix}inori
+┣ ${prefix}isuzu
+┣ ${prefix}itachi
+┣ ${prefix}itori
+┣ ${prefix}kaga
+┣ ${prefix}kagura
+┣ ${prefix}kaori
+┣ ${prefix}keneki
+┣ ${prefix}kotori
+┣ ${prefix}kurumi
+┣ ${prefix}madara
+┣ ${prefix}mikasa
+┣ ${prefix}miku
+┣ ${prefix}minato
+┣ ${prefix}naruto
+┣ ${prefix}nezuko
+┣ ${prefix}sagiri
+┣ ${prefix}sasuke
+┣ ${prefix}sakura
+┣ ${prefix}cosplay
+┗━━━━━━━━━━━┛
 
-*╭─╮─᤻─᳒─᤻᳒᯽⃟ᰳᰬᰶ┈*⃐👽ＳＴＩＣＫＥＲ*️⃟ᬽ፝֟━*
-├❥ *(Crear sticker desde whatsapp con NovaBot)*
-├ *✧･ﾟ: *✧･ﾟ:*✧･ﾟ: *✧･ﾟ:*✧･ﾟ: *✧･ﾟ:
-├❥ᰰຼ ❏ ${prefix}s
-├❥ᰰຼ ❏ ${prefix}sticker 
-├❥ᰰຼ ❏ ${prefix}wm
-├❥ᰰຼ ❏ ${prefix}attp
-├❥ᰰຼ ❏ ${prefix}qc
-├❥ᰰຼ ❏ ${prefix}emojimix
-*╰┄̸࣭࣭࣭࣭࣭ٜ۫┄࣭࣭࣭۫┄̸࣭۫┄̸࣭࣭࣭࣭࣭ٜ۫┄࣭࣭࣭۫┄̸࣭۫┄̸࣭࣭࣭࣭࣭ٜ۫┄̸࣭࣭࣭࣭࣭ٜ۫┄࣭۫*
+┏━━━━━━━━━━━┓
+┣ ＥＣＯＮＯＭＩＡ ＨＹＰＥＲＸ
+┗━━━━━━━━━━━┛
+┏━━━━━━━━━━━┓
+┣ ${prefix}minar
+┣ ${prefix}robar
+┣ ${prefix}rob
+┣ ${prefix}crime
+┣ ${prefix}trabajar
+┣ ${prefix}work
+┣ ${prefix}buy
+┣ ${prefix}bal
+┣ ${prefix}balace
+┣ ${prefix}claim
+┣ ${prefix}lb
+┣ ${prefix}leaderboard
+┣ ${prefix}cofre
+┣ ${prefix}perfil
+┣ ${prefix}nivel
+┣ ${prefix}levelup
+┣ ${prefix}transferir
+┣ ${prefix}transfer
+┣ ${prefix}afk
+┗━━━━━━━━━━━┛
 
-*╭─╮─᤻─᳒─᤻᳒᯽⃟ᰳᰬᰶ┈*⃐👑ＯＷＮＥＲ*️⃟ᬽ፝֟━*
-├❥ _(Comando exclusivo para propietario/owner del bot)_
-├ *✧･ﾟ: *✧･ﾟ:*✧･ﾟ: *✧･ﾟ:*✧･ﾟ: *✧･ﾟ:
-├❥ᰰຼ ❏ ${prefix}anticall _(on/off)_
-├❥ᰰຼ ❏ ${prefix}antillamada _(on/off)_
-├❥ᰰຼ ❏ ${prefix}antipv _(on/off)_
-├❥ᰰຼ ❏ ${prefix}antiprivado _(on/off)_
-├❥ᰰຼ ❏ ${prefix}autoread _(on/off)_
-├❥ᰰຼ ❏ ${prefix}modojadibot _(on/off)_
-├❥ᰰຼ ❏ ${prefix}añadirdiamantes _(@tag)_
-├❥ᰰຼ ❏ ${prefix}addlimit _(@tag)_
-├❥ᰰຼ ❏ ${prefix}dardiamantes _(@tag)_
-├❥ᰰຼ ❏ ${prefix}añadirxp _(@tag)_
-├❥ᰰຼ ❏ ${prefix}addxp _(@tag)_
-├❥ᰰຼ ❏ ${prefix}banuser _(@tag)_
-├❥ᰰຼ ❏ ${prefix}unbanuser _(@tag)_
-├❥ᰰຼ ❏ ${prefix}autoadmin 
-├❥ᰰຼ ❏ ${prefix}nuevonombre
-├❥ᰰຼ ❏ ${prefix}botname _(cambiar el name del bot)_
-├❥ᰰຼ ❏ ${prefix}nuevafoto
-├❥ᰰຼ ❏ ${prefix}seppbot
-├❥ᰰຼ ❏ ${prefix}fotobot _(cambiar la foto del bot)_
-├❥ᰰຼ ❏ ${prefix}bc (Difusión a todos los chat)
-├❥ᰰຼ ❏ ${prefix}bcgc (Difusión solo a grupos)
-├❥ᰰຼ ❏ ${prefix}setpp (Cambia la foto del bot) 
-├❥ᰰຼ ❏ ${prefix}public (Modo público) 
-├❥ᰰຼ ❏ ${prefix}privado (Modo privado) 
-├❥ᰰຼ ❏ ${prefix}getcase
-├❥ᰰຼ ❏ ${prefix}fetch
-├❥ᰰຼ ❏ ${prefix}update
-├❥ᰰຼ ❏ ${prefix}restart 
-├❥ᰰຼ ❏ ${prefix}reiniciar
-├❥ᰰຼ ❏ $ 
-├❥ᰰຼ ❏ >
-├❥ᰰຼ ❏ => 
-*╰┄̸࣭࣭࣭࣭࣭ٜ۫┄࣭࣭࣭۫┄̸࣭۫┄̸࣭࣭࣭࣭࣭ٜ۫┄࣭࣭࣭۫┄̸࣭۫┄̸࣭࣭࣭࣭࣭ٜ۫┄̸࣭࣭࣭࣭࣭ٜ۫┄࣭۫*`
+┏━━━━━━━━━━━┓
+┣ ＳＴＩＣＫＥＲＳ ＨＹＰＥＲＸ
+┗━━━━━━━━━━━┛
+┏━━━━━━━━━━━┓
+┣ ${prefix}s
+┣ ${prefix}sticker
+┣ ${prefix}wm
+┣ ${prefix}attp
+┣ ${prefix}qc
+┣ ${prefix}emojimix
+┗━━━━━━━━━━━┛
 
-conn.sendButton(m.chat, menu, botname, img, [['𝐈𝐍𝐅𝐎', `.status`], ['𝐆𝐑𝐔𝐏𝐎𝐒', `.grupos`]], null, [['𝐍𝐨𝐯𝐚𝐁𝐨𝐭-𝐌𝐃', `${pickRandom([nna, nn, md, yt])}`]], m)
+┏━━━━━━━━━━━┓
+┣ ＯＷＮＥＲ ＨＹＰＥＲＸ
+┗━━━━━━━━━━━┛
+┏━━━━━━━━━━━┓
+┣ ${prefix}anticall
+┣ ${prefix}antillamda
+┣ ${prefix}antipv
+┣ ${prefix}antiprivado
+┣ ${prefix}autoread
+┣ ${prefix}modojadibot
+┣ ${prefix}añadirdiamantes
+┣ ${prefix}addlimit
+┣ ${prefix}dardiamantes
+┣ ${prefix}añadirxp
+┣ ${prefix}addxp
+┣ ${prefix}banuser
+┣ ${prefix}unbanuser
+┣ ${prefix}autoadmin
+┣ ${prefix}nuevonombre
+┣ ${prefix}botname
+┣ ${prefix}nuevafoto
+┣ ${prefix}seppbot
+┣ ${prefix}fotobot
+┣ ${prefix}bc
+┣ ${prefix}fetch
+┣ ${prefix}bcgc
+┣ ${prefix}setpp
+┣ ${prefix}public
+┣ ${prefix}privado
+┣ ${prefix}getcase
+┣ ${prefix}update
+┣ ${prefix}restart
+┣ ${prefix}reiniciar
+┗━━━━━━━━━━━┛
+
+conn.sendButton(m.chat, menu, botname, img, [['𝐈𝐍𝐅𝐎', `.status`], ['𝐆𝐑𝐔𝐏𝐎𝐒', `.grupos`]], null, [['𝑯𝒀𝑷𝑬𝑹𝑿', `${pickRandom([nna, nn, md, yt])}`]], m)
 /*conn.sendMessage(m.chat, { text: menu,  
 contextInfo:{  
 forwardedNewsletterMessageInfo: { 
 newsletterJid: '120363160031023229@newsletter', 
 serverMessageId: '', 
-newsletterName: 'INFINITY-WA 💫' },
+newsletterName: '𝑯𝒀𝑷𝑬𝑹𝑿' },
 forwardingScore: 9999999,  
 isForwarded: true,   
 mentionedJid:[sender, numBot],  
