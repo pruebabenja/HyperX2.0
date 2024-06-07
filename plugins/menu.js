@@ -33,8 +33,6 @@ let submenu = `𝐇𝐘𝐏𝐄𝐑𝐗 𝐓𝐄 𝐃𝐀 𝐋𝐀 𝐂𝐎𝐑�
 ┣ \`✅𝐃𝐈𝐒𝐅𝐑𝐔𝐓𝐀 𝐃𝐄𝐋 𝐁𝐎𝐓 𝐇𝐘𝐏𝐄𝐑𝐗\`
 ┗━━━━━━━━━━━┛`
 
-${pickRandom([`\`𝐐𝐮𝐢𝐞𝐫𝐞𝐬 𝐨𝐛𝐭𝐞𝐧𝐞𝐫 𝐭𝐮 𝐛𝐨𝐭 𝐩𝐞𝐫𝐬𝐨𝐧𝐚𝐥𝐢𝐳𝐚𝐝𝐨?\`
-https://www.facebook.com/elrebelde21`, `\`□ CÓMO INSTALAR EL BOT\`\n${yt}`, `\`¿Qué hay de nuevo?\`\n• Pon : ${prefix}nuevo`, `\`💫 INFÓRMATE SOBRE LAS NUEVAS ACTUALIZACIONES, NOVEDADES DEL BOT AQUÍ\`\n${nna}`, `\`🌟¿Te agrada el bot? califica nuestro repo con una estrellita ☺\`\n${md}`, `Activar tu bot 24/7 con nuestro hosting\n${host}`])}\n\n`
 let descargar = `╭┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈⪩
 let descargar = `╭┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈⪩
 let descargar = `
