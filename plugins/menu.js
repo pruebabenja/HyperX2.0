@@ -1092,7 +1092,7 @@ let menu = `*🧸❤️‍🩹𝑯𝒚𝒑𝒆𝒓𝑿 𝒕𝒆 𝒔𝒂𝒍𝒖
 ┣ ${prefix}reiniciar
 ┗━━━━━━━━━━━┛`
 
-conn.sendButton(m.chat, menu, botname, img, [['𝐈𝐍𝐅𝐎', `.status`], ['𝐆𝐑𝐔𝐏𝐎𝐒', `.grupos`]], null, [['𝑯𝒀𝑷𝑬𝑹𝑿', `${pickRandom([nna, nn, md, yt])}`]], m)
+conn.sendButton(m.chat, menu, 𝑯𝒀𝑷𝑬𝑹𝑿, menu2, [['𝐈𝐍𝐅𝐎', `.status`], ['𝐆𝐑𝐔𝐏𝐎𝐒', `.grupos`]], null, [['𝑯𝒀𝑷𝑬𝑹𝑿', `${pickRandom([nna, nn, md, yt])}`]], m)
 /*conn.sendMessage(m.chat, { text: menu,  
 contextInfo:{  
 forwardedNewsletterMessageInfo: { 
@@ -1108,7 +1108,7 @@ mentionedJid:[sender, numBot],
 "title": wm,   
 "containsAutoReply": true,  
 "mediaType": 1,   
-"thumbnail": imagen2, 
+"thumbnail": menu2, 
 sourceUrl: `${pickRandom([nna, nn, md, yt])}`
 }}}, { quoted: fkontak, ephemeralExpiration: 24*60*100, disappearingMessagesInChat: 24*60*100}) */
 }
